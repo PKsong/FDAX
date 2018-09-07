@@ -1,0 +1,32 @@
+### Headers settings
+company: landsone
+
+### Xcode project settings
+project_name: LSWDAX
+xcodeproj_path: LSWDAX.xcodeproj
+prefix: LS
+
+### Code generation settings section
+# The main project target name
+project_target: LSWDAX
+
+# The file path for new modules
+project_file_path: LSWDAX/Interface
+
+# The Xcode group path to new modules
+project_group_path: LSWDAX/Interface
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Catalogs
+catalogs:
+- 'https://github.com/surfstudio/generamba-templates'
+
+### Templates
+templates:
+- {name: rviper_controller}
+- {name: mvvm_controller}
+- {name: swifty_viper}
+- {name: surf_mvp_module}
+- {name: surf_mvp_coordinatable_module}
