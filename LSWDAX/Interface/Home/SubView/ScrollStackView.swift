@@ -20,13 +20,11 @@ class ScrollStackView: UIView, NibLoadableView {
         willSet {
             if views.count > 0 {
                 for v in views {
-                    v.removeFromSuperview()
+                    contentView.removeArrangedSubview(v)
                 }
             }
-            let idx = views.count / maxCount
-            widthLayout.constant = CGFloat(idx) * scrollView.bounds.width
             for v in newValue {
-                contentView.addSubview(v)
+                contentView.addArrangedSubview(v)
             }
         }
     }
@@ -37,5 +35,8 @@ class ScrollStackView: UIView, NibLoadableView {
         // Drawing code
     }
     */
-
+    override func layoutSubviews() {
+        let diff = views.count - maxCount
+        widthLayout.constant = diff > 0 ? CGFloat(diff) * (scrollView.bounds.width / CGFloat(maxCount)) : 0
+    }
 }

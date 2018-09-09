@@ -7,25 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09ECAB8D21BA5CB3ECD62D17 /* LSRunModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C196DC15AA78D46FFF1E99 /* LSRunModuleInput.swift */; };
-		20C482DA32B107EC0311601F /* LSExchangeConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C1916102F93DA1EDC9416 /* LSExchangeConfigurator.swift */; };
-		2BF137DF17B8CB57C7149827 /* LSRunPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2AE92B7BE3A8DA366B8E9A /* LSRunPresenter.swift */; };
-		2F91CF1F6EB5446E6C69E7DD /* LSExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB5D692E98DE1303826941 /* LSExchangeViewController.swift */; };
-		3502476AECDB8782CA8DB5DB /* LSExchangeModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D81236BA686B3FE1A35418 /* LSExchangeModuleInput.swift */; };
-		47E05DAEE7F2907B93E9DD53 /* LSRunInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAA9CE5ACCE6EF37722419C /* LSRunInitializer.swift */; };
-		6E0340A30CD7E976743698D1 /* LSRunViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FD1DE29F92726F751022EF /* LSRunViewInput.swift */; };
-		84ABA7D1E94D41D370A9CBA1 /* LSExchangeViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9967F7379DEF948FBF457CFA /* LSExchangeViewInput.swift */; };
-		8AB7BA7D879C5EE2570D9427 /* LSExchangeInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2BCFFAAC942AFD12D132EC /* LSExchangeInteractorInput.swift */; };
-		8D5354C7AE01E15B986CABF7 /* LSExchangeViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BCA1DB41349DCD6A3BE57F /* LSExchangeViewOutput.swift */; };
-		A71E76325ECEC217C9E7C465 /* LSExchangeInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EC103D3A437144E65DE87F /* LSExchangeInitializer.swift */; };
-		AEAFA7605FFA66FE0588005D /* LSExchangePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468024B6EAFB91AF767E6084 /* LSExchangePresenter.swift */; };
-		B1153DCEA33350EF65861FD7 /* LSExchangeRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00AEDDB2129A4D2A46D339D /* LSExchangeRouterInput.swift */; };
-		B75E7A2F2143952F006111B3 /* MarketDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75E7A292143952F006111B3 /* MarketDisplayData.swift */; };
-		B75E7A302143952F006111B3 /* MarketPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75E7A2A2143952F006111B3 /* MarketPresenter.swift */; };
-		B75E7A312143952F006111B3 /* MarketRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75E7A2B2143952F006111B3 /* MarketRouter.swift */; };
-		B75E7A322143952F006111B3 /* MarketModuleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75E7A2C2143952F006111B3 /* MarketModuleApi.swift */; };
-		B75E7A332143952F006111B3 /* MarketInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75E7A2D2143952F006111B3 /* MarketInteractor.swift */; };
-		B75E7A342143952F006111B3 /* MarketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75E7A2E2143952F006111B3 /* MarketView.swift */; };
 		B75E7A3D21443CBE006111B3 /* HomeDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75E7A3721443CBE006111B3 /* HomeDisplayData.swift */; };
 		B75E7A3E21443CBE006111B3 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75E7A3821443CBE006111B3 /* HomePresenter.swift */; };
 		B75E7A3F21443CBE006111B3 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75E7A3921443CBE006111B3 /* HomeRouter.swift */; };
@@ -38,62 +19,52 @@
 		B75E7A562144654D006111B3 /* AccountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B75E7A552144654D006111B3 /* AccountView.xib */; };
 		B75E7A5C21446D77006111B3 /* VolumeRankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75E7A5A21446D77006111B3 /* VolumeRankCell.swift */; };
 		B75E7A5D21446D77006111B3 /* VolumeRankCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B75E7A5B21446D77006111B3 /* VolumeRankCell.xib */; };
+		B7850EA121456A3C00D668C4 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7850EA021456A3C00D668C4 /* UIView+Extension.swift */; };
+		B7850EA42145729D00D668C4 /* UIStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7850EA32145729D00D668C4 /* UIStyle.swift */; };
+		B7850EA6214573F100D668C4 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7850EA5214573F100D668C4 /* Color+Extension.swift */; };
 		B7EB479D2145039900DB86C4 /* TableView+protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB479C2145039900DB86C4 /* TableView+protocol.swift */; };
 		B7EB479F214504BA00DB86C4 /* HomeSectionTitleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB479E214504BA00DB86C4 /* HomeSectionTitleHeader.swift */; };
 		B7EB47A1214504C800DB86C4 /* HomeSectionTitleHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7EB47A0214504C800DB86C4 /* HomeSectionTitleHeader.xib */; };
 		B7EB47A421452C3100DB86C4 /* ScrollStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47A321452C3100DB86C4 /* ScrollStackView.swift */; };
 		B7EB47A621452C3D00DB86C4 /* ScrollStackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7EB47A521452C3D00DB86C4 /* ScrollStackView.xib */; };
 		B7EB47A9214531F600DB86C4 /* MarketListVew.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47A8214531F600DB86C4 /* MarketListVew.swift */; };
+		B7EB47AE21453C9500DB86C4 /* LSTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47AD21453C9500DB86C4 /* LSTabBarViewController.swift */; };
+		B7EB47B021454A5C00DB86C4 /* AppModules.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47AF21454A5C00DB86C4 /* AppModules.swift */; };
+		B7EB47B721454B7800DB86C4 /* ExchangeDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47B121454B7800DB86C4 /* ExchangeDisplayData.swift */; };
+		B7EB47B821454B7800DB86C4 /* ExchangePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47B221454B7800DB86C4 /* ExchangePresenter.swift */; };
+		B7EB47B921454B7800DB86C4 /* ExchangeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47B321454B7800DB86C4 /* ExchangeRouter.swift */; };
+		B7EB47BA21454B7800DB86C4 /* ExchangeModuleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47B421454B7800DB86C4 /* ExchangeModuleApi.swift */; };
+		B7EB47BB21454B7800DB86C4 /* ExchangeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47B521454B7800DB86C4 /* ExchangeInteractor.swift */; };
+		B7EB47BC21454B7800DB86C4 /* ExchangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47B621454B7800DB86C4 /* ExchangeView.swift */; };
+		B7EB47C421454B9E00DB86C4 /* MineDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47BE21454B9E00DB86C4 /* MineDisplayData.swift */; };
+		B7EB47C521454B9E00DB86C4 /* MinePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47BF21454B9E00DB86C4 /* MinePresenter.swift */; };
+		B7EB47C621454B9E00DB86C4 /* MineRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47C021454B9E00DB86C4 /* MineRouter.swift */; };
+		B7EB47C721454B9E00DB86C4 /* MineModuleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47C121454B9E00DB86C4 /* MineModuleApi.swift */; };
+		B7EB47C821454B9E00DB86C4 /* MineInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47C221454B9E00DB86C4 /* MineInteractor.swift */; };
+		B7EB47C921454B9E00DB86C4 /* MineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47C321454B9E00DB86C4 /* MineView.swift */; };
+		B7EB47E121454BFB00DB86C4 /* CToC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7EB47DA21454BFB00DB86C4 /* CToC.storyboard */; };
+		B7EB47E221454BFB00DB86C4 /* CToCDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47DB21454BFB00DB86C4 /* CToCDisplayData.swift */; };
+		B7EB47E321454BFB00DB86C4 /* CToCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47DC21454BFB00DB86C4 /* CToCPresenter.swift */; };
+		B7EB47E421454BFB00DB86C4 /* CToCRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47DD21454BFB00DB86C4 /* CToCRouter.swift */; };
+		B7EB47E521454BFB00DB86C4 /* CToCModuleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47DE21454BFB00DB86C4 /* CToCModuleApi.swift */; };
+		B7EB47E621454BFB00DB86C4 /* CToCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47DF21454BFB00DB86C4 /* CToCInteractor.swift */; };
+		B7EB47E721454BFB00DB86C4 /* CToCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47E021454BFB00DB86C4 /* CToCView.swift */; };
+		B7EB47EA21454DA700DB86C4 /* LSNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47E921454DA700DB86C4 /* LSNaviViewController.swift */; };
+		B7EB47ED214550E700DB86C4 /* LSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB47EC214550E700DB86C4 /* LSBaseViewController.swift */; };
 		B9F162ABA62714421BC2F163 /* Pods_LSWDAX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C3AA5CFC70688E98D3E07 /* Pods_LSWDAX.framework */; };
-		CEC035E55ABDF5698E5F426F /* LSExchangeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD94EE49400ACBAB4824782 /* LSExchangeRouter.swift */; };
-		DB86E5838142C735BF22430F /* LSRunViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007FDACC99B8C3A75AFA1E81 /* LSRunViewOutput.swift */; };
 		E2364AF221421EB7008B6FDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2364AF121421EB7008B6FDB /* AppDelegate.swift */; };
 		E2364AF421421EB7008B6FDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2364AF321421EB7008B6FDB /* ViewController.swift */; };
-		E2364AF721421EB7008B6FDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2364AF521421EB7008B6FDB /* Main.storyboard */; };
 		E2364AF921421EB8008B6FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2364AF821421EB8008B6FDB /* Assets.xcassets */; };
 		E2364AFC21421EB8008B6FDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2364AFA21421EB8008B6FDB /* LaunchScreen.storyboard */; };
 		E2364B0A214221B6008B6FDB /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2364B09214221B6008B6FDB /* Mine.storyboard */; };
 		E2364B0C214221DB008B6FDB /* CToC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2364B0B214221DB008B6FDB /* CToC.storyboard */; };
 		E2364B0E214221F1008B6FDB /* Exchange.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2364B0D214221F1008B6FDB /* Exchange.storyboard */; };
 		E2364B1021422205008B6FDB /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2364B0F21422205008B6FDB /* Home.storyboard */; };
-		E25DA17021428FD0007F55E0 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25DA16921428FD0007F55E0 /* Mine.storyboard */; };
-		E25DA17121428FD0007F55E0 /* MineDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25DA16A21428FD0007F55E0 /* MineDisplayData.swift */; };
-		E25DA17221428FD0007F55E0 /* MinePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25DA16B21428FD0007F55E0 /* MinePresenter.swift */; };
-		E25DA17321428FD0007F55E0 /* MineRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25DA16C21428FD0007F55E0 /* MineRouter.swift */; };
-		E25DA17421428FD0007F55E0 /* MineModuleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25DA16D21428FD0007F55E0 /* MineModuleApi.swift */; };
-		E25DA17521428FD0007F55E0 /* MineInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25DA16E21428FD0007F55E0 /* MineInteractor.swift */; };
-		E25DA17621428FD0007F55E0 /* MineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25DA16F21428FD0007F55E0 /* MineView.swift */; };
-		E881249D93C9CA4555B2A24F /* LSExchangeInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6C84A50A7DACEBE7252B6C /* LSExchangeInteractorOutput.swift */; };
-		F370BC8F04ED5B7B07C3851D /* LSRunConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B062E244AFBB32B86E1948E /* LSRunConfigurator.swift */; };
-		FC0C4691273CF9A2549C77D5 /* LSRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2ED8E1BE908A823464DAA7B /* LSRunViewController.swift */; };
-		FF2D9D996A3FA7535F0D47E6 /* LSExchangeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA476CF00DCE20EECD5CA320 /* LSExchangeInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		007FDACC99B8C3A75AFA1E81 /* LSRunViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LSRunViewOutput.swift; sourceTree = "<group>"; };
-		033C1916102F93DA1EDC9416 /* LSExchangeConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LSExchangeConfigurator.swift; sourceTree = "<group>"; };
-		0B062E244AFBB32B86E1948E /* LSRunConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LSRunConfigurator.swift; sourceTree = "<group>"; };
-		13FD1DE29F92726F751022EF /* LSRunViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LSRunViewInput.swift; sourceTree = "<group>"; };
 		3F3C3AA5CFC70688E98D3E07 /* Pods_LSWDAX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSWDAX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		468024B6EAFB91AF767E6084 /* LSExchangePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LSExchangePresenter.swift; sourceTree = "<group>"; };
-		67EC103D3A437144E65DE87F /* LSExchangeInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LSExchangeInitializer.swift; sourceTree = "<group>"; };
-		70C196DC15AA78D46FFF1E99 /* LSRunModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LSRunModuleInput.swift; sourceTree = "<group>"; };
-		75BCA1DB41349DCD6A3BE57F /* LSExchangeViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LSExchangeViewOutput.swift; sourceTree = "<group>"; };
-		80DB5D692E98DE1303826941 /* LSExchangeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LSExchangeViewController.swift; sourceTree = "<group>"; };
-		95D81236BA686B3FE1A35418 /* LSExchangeModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LSExchangeModuleInput.swift; sourceTree = "<group>"; };
-		9967F7379DEF948FBF457CFA /* LSExchangeViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LSExchangeViewInput.swift; sourceTree = "<group>"; };
-		9AAA9CE5ACCE6EF37722419C /* LSRunInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LSRunInitializer.swift; sourceTree = "<group>"; };
 		A56BB65AE62F378A391337C2 /* Pods-LSWDAX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSWDAX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSWDAX/Pods-LSWDAX.debug.xcconfig"; sourceTree = "<group>"; };
-		ABD94EE49400ACBAB4824782 /* LSExchangeRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LSExchangeRouter.swift; sourceTree = "<group>"; };
-		AF2AE92B7BE3A8DA366B8E9A /* LSRunPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LSRunPresenter.swift; sourceTree = "<group>"; };
-		B00AEDDB2129A4D2A46D339D /* LSExchangeRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LSExchangeRouterInput.swift; sourceTree = "<group>"; };
-		B2ED8E1BE908A823464DAA7B /* LSRunViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LSRunViewController.swift; sourceTree = "<group>"; };
-		B75E7A292143952F006111B3 /* MarketDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDisplayData.swift; sourceTree = "<group>"; };
-		B75E7A2A2143952F006111B3 /* MarketPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPresenter.swift; sourceTree = "<group>"; };
-		B75E7A2B2143952F006111B3 /* MarketRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketRouter.swift; sourceTree = "<group>"; };
-		B75E7A2C2143952F006111B3 /* MarketModuleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketModuleApi.swift; sourceTree = "<group>"; };
-		B75E7A2D2143952F006111B3 /* MarketInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketInteractor.swift; sourceTree = "<group>"; };
-		B75E7A2E2143952F006111B3 /* MarketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketView.swift; sourceTree = "<group>"; };
 		B75E7A3721443CBE006111B3 /* HomeDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDisplayData.swift; sourceTree = "<group>"; };
 		B75E7A3821443CBE006111B3 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		B75E7A3921443CBE006111B3 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
@@ -106,18 +77,41 @@
 		B75E7A552144654D006111B3 /* AccountView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountView.xib; sourceTree = "<group>"; };
 		B75E7A5A21446D77006111B3 /* VolumeRankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeRankCell.swift; sourceTree = "<group>"; };
 		B75E7A5B21446D77006111B3 /* VolumeRankCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VolumeRankCell.xib; sourceTree = "<group>"; };
+		B7850EA021456A3C00D668C4 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		B7850EA32145729D00D668C4 /* UIStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStyle.swift; sourceTree = "<group>"; };
+		B7850EA5214573F100D668C4 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		B7EB479C2145039900DB86C4 /* TableView+protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+protocol.swift"; sourceTree = "<group>"; };
 		B7EB479E214504BA00DB86C4 /* HomeSectionTitleHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSectionTitleHeader.swift; sourceTree = "<group>"; };
 		B7EB47A0214504C800DB86C4 /* HomeSectionTitleHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeSectionTitleHeader.xib; sourceTree = "<group>"; };
 		B7EB47A321452C3100DB86C4 /* ScrollStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollStackView.swift; sourceTree = "<group>"; };
 		B7EB47A521452C3D00DB86C4 /* ScrollStackView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollStackView.xib; sourceTree = "<group>"; };
 		B7EB47A8214531F600DB86C4 /* MarketListVew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketListVew.swift; sourceTree = "<group>"; };
-		BE6C84A50A7DACEBE7252B6C /* LSExchangeInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LSExchangeInteractorOutput.swift; sourceTree = "<group>"; };
-		DE2BCFFAAC942AFD12D132EC /* LSExchangeInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LSExchangeInteractorInput.swift; sourceTree = "<group>"; };
+		B7EB47AD21453C9500DB86C4 /* LSTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSTabBarViewController.swift; sourceTree = "<group>"; };
+		B7EB47AF21454A5C00DB86C4 /* AppModules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModules.swift; sourceTree = "<group>"; };
+		B7EB47B121454B7800DB86C4 /* ExchangeDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeDisplayData.swift; sourceTree = "<group>"; };
+		B7EB47B221454B7800DB86C4 /* ExchangePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangePresenter.swift; sourceTree = "<group>"; };
+		B7EB47B321454B7800DB86C4 /* ExchangeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRouter.swift; sourceTree = "<group>"; };
+		B7EB47B421454B7800DB86C4 /* ExchangeModuleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeModuleApi.swift; sourceTree = "<group>"; };
+		B7EB47B521454B7800DB86C4 /* ExchangeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeInteractor.swift; sourceTree = "<group>"; };
+		B7EB47B621454B7800DB86C4 /* ExchangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeView.swift; sourceTree = "<group>"; };
+		B7EB47BE21454B9E00DB86C4 /* MineDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineDisplayData.swift; sourceTree = "<group>"; };
+		B7EB47BF21454B9E00DB86C4 /* MinePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinePresenter.swift; sourceTree = "<group>"; };
+		B7EB47C021454B9E00DB86C4 /* MineRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineRouter.swift; sourceTree = "<group>"; };
+		B7EB47C121454B9E00DB86C4 /* MineModuleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineModuleApi.swift; sourceTree = "<group>"; };
+		B7EB47C221454B9E00DB86C4 /* MineInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineInteractor.swift; sourceTree = "<group>"; };
+		B7EB47C321454B9E00DB86C4 /* MineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineView.swift; sourceTree = "<group>"; };
+		B7EB47DA21454BFB00DB86C4 /* CToC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CToC.storyboard; sourceTree = "<group>"; };
+		B7EB47DB21454BFB00DB86C4 /* CToCDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CToCDisplayData.swift; sourceTree = "<group>"; };
+		B7EB47DC21454BFB00DB86C4 /* CToCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CToCPresenter.swift; sourceTree = "<group>"; };
+		B7EB47DD21454BFB00DB86C4 /* CToCRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CToCRouter.swift; sourceTree = "<group>"; };
+		B7EB47DE21454BFB00DB86C4 /* CToCModuleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CToCModuleApi.swift; sourceTree = "<group>"; };
+		B7EB47DF21454BFB00DB86C4 /* CToCInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CToCInteractor.swift; sourceTree = "<group>"; };
+		B7EB47E021454BFB00DB86C4 /* CToCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CToCView.swift; sourceTree = "<group>"; };
+		B7EB47E921454DA700DB86C4 /* LSNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSNaviViewController.swift; sourceTree = "<group>"; };
+		B7EB47EC214550E700DB86C4 /* LSBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSBaseViewController.swift; sourceTree = "<group>"; };
 		E2364AEE21421EB7008B6FDB /* LSWDAX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSWDAX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2364AF121421EB7008B6FDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2364AF321421EB7008B6FDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E2364AF621421EB7008B6FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2364AF821421EB8008B6FDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2364AFB21421EB8008B6FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2364AFD21421EB8008B6FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -125,14 +119,6 @@
 		E2364B0B214221DB008B6FDB /* CToC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CToC.storyboard; sourceTree = "<group>"; };
 		E2364B0D214221F1008B6FDB /* Exchange.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Exchange.storyboard; sourceTree = "<group>"; };
 		E2364B0F21422205008B6FDB /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
-		E25DA16921428FD0007F55E0 /* Mine.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
-		E25DA16A21428FD0007F55E0 /* MineDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineDisplayData.swift; sourceTree = "<group>"; };
-		E25DA16B21428FD0007F55E0 /* MinePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinePresenter.swift; sourceTree = "<group>"; };
-		E25DA16C21428FD0007F55E0 /* MineRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineRouter.swift; sourceTree = "<group>"; };
-		E25DA16D21428FD0007F55E0 /* MineModuleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineModuleApi.swift; sourceTree = "<group>"; };
-		E25DA16E21428FD0007F55E0 /* MineInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineInteractor.swift; sourceTree = "<group>"; };
-		E25DA16F21428FD0007F55E0 /* MineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineView.swift; sourceTree = "<group>"; };
-		EA476CF00DCE20EECD5CA320 /* LSExchangeInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LSExchangeInteractor.swift; sourceTree = "<group>"; };
 		F0E455C6D1EF417C943F5599 /* Pods-LSWDAX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSWDAX.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSWDAX/Pods-LSWDAX.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,89 +134,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D7FB86FBE94402E2E1D0B4C /* Configurator */ = {
-			isa = PBXGroup;
-			children = (
-				033C1916102F93DA1EDC9416 /* LSExchangeConfigurator.swift */,
-				67EC103D3A437144E65DE87F /* LSExchangeInitializer.swift */,
-			);
-			path = Configurator;
-			sourceTree = "<group>";
-		};
-		16C48956C4A3DFF43F55C562 /* Exchange */ = {
-			isa = PBXGroup;
-			children = (
-				87D7D4DBAB48EA4840F08939 /* View */,
-				44DB5BB898664CD77E2D856A /* Presenter */,
-				61A333B61E101F6DB6E93EA9 /* Interactor */,
-				1CED8086EDD9DE581B90AB73 /* Router */,
-				0D7FB86FBE94402E2E1D0B4C /* Configurator */,
-			);
-			path = Exchange;
-			sourceTree = "<group>";
-		};
-		1CED8086EDD9DE581B90AB73 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				B00AEDDB2129A4D2A46D339D /* LSExchangeRouterInput.swift */,
-				ABD94EE49400ACBAB4824782 /* LSExchangeRouter.swift */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
 		2C1256A51F3446139BB3A9AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				3F3C3AA5CFC70688E98D3E07 /* Pods_LSWDAX.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		34752756E79BDFFF3337BBE3 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				70C196DC15AA78D46FFF1E99 /* LSRunModuleInput.swift */,
-				AF2AE92B7BE3A8DA366B8E9A /* LSRunPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		36036B0ABE614313CC737D96 /* Configurator */ = {
-			isa = PBXGroup;
-			children = (
-				0B062E244AFBB32B86E1948E /* LSRunConfigurator.swift */,
-				9AAA9CE5ACCE6EF37722419C /* LSRunInitializer.swift */,
-			);
-			path = Configurator;
-			sourceTree = "<group>";
-		};
-		44DB5BB898664CD77E2D856A /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				95D81236BA686B3FE1A35418 /* LSExchangeModuleInput.swift */,
-				468024B6EAFB91AF767E6084 /* LSExchangePresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		61A333B61E101F6DB6E93EA9 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				DE2BCFFAAC942AFD12D132EC /* LSExchangeInteractorInput.swift */,
-				BE6C84A50A7DACEBE7252B6C /* LSExchangeInteractorOutput.swift */,
-				EA476CF00DCE20EECD5CA320 /* LSExchangeInteractor.swift */,
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		87D7D4DBAB48EA4840F08939 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				9967F7379DEF948FBF457CFA /* LSExchangeViewInput.swift */,
-				75BCA1DB41349DCD6A3BE57F /* LSExchangeViewOutput.swift */,
-				80DB5D692E98DE1303826941 /* LSExchangeViewController.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		A166F80101D6E259EAC5901F /* Pods */ = {
@@ -240,19 +149,6 @@
 				F0E455C6D1EF417C943F5599 /* Pods-LSWDAX.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		B75E7A2821439506006111B3 /* Market */ = {
-			isa = PBXGroup;
-			children = (
-				B75E7A292143952F006111B3 /* MarketDisplayData.swift */,
-				B75E7A2A2143952F006111B3 /* MarketPresenter.swift */,
-				B75E7A2B2143952F006111B3 /* MarketRouter.swift */,
-				B75E7A2C2143952F006111B3 /* MarketModuleApi.swift */,
-				B75E7A2D2143952F006111B3 /* MarketInteractor.swift */,
-				B75E7A2E2143952F006111B3 /* MarketView.swift */,
-			);
-			path = Market;
 			sourceTree = "<group>";
 		};
 		B75E7A4D21445D77006111B3 /* SubView */ = {
@@ -296,6 +192,23 @@
 			path = VolumeRankCell;
 			sourceTree = "<group>";
 		};
+		B7850E9F214569EF00D668C4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B7850EA021456A3C00D668C4 /* UIView+Extension.swift */,
+				B7850EA5214573F100D668C4 /* Color+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B7850EA2214571AB00D668C4 /* UIStyle */ = {
+			isa = PBXGroup;
+			children = (
+				B7850EA32145729D00D668C4 /* UIStyle.swift */,
+			);
+			path = UIStyle;
+			sourceTree = "<group>";
+		};
 		B7EB479B214502DD00DB86C4 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,24 +234,68 @@
 			path = MarketListVew;
 			sourceTree = "<group>";
 		};
-		C8E0923AF1C4DA62C449DB51 /* View */ = {
+		B7EB47AA21453B8B00DB86C4 /* Tabar */ = {
 			isa = PBXGroup;
 			children = (
-				13FD1DE29F92726F751022EF /* LSRunViewInput.swift */,
-				007FDACC99B8C3A75AFA1E81 /* LSRunViewOutput.swift */,
-				B2ED8E1BE908A823464DAA7B /* LSRunViewController.swift */,
+				B7EB47AD21453C9500DB86C4 /* LSTabBarViewController.swift */,
 			);
-			path = View;
+			path = Tabar;
 			sourceTree = "<group>";
 		};
-		D31D0F16CFE64FA6CE82524B /* Run */ = {
+		B7EB47BD21454B7E00DB86C4 /* Exchange */ = {
 			isa = PBXGroup;
 			children = (
-				C8E0923AF1C4DA62C449DB51 /* View */,
-				34752756E79BDFFF3337BBE3 /* Presenter */,
-				36036B0ABE614313CC737D96 /* Configurator */,
+				B7EB47B121454B7800DB86C4 /* ExchangeDisplayData.swift */,
+				B7EB47B221454B7800DB86C4 /* ExchangePresenter.swift */,
+				B7EB47B321454B7800DB86C4 /* ExchangeRouter.swift */,
+				B7EB47B421454B7800DB86C4 /* ExchangeModuleApi.swift */,
+				B7EB47B521454B7800DB86C4 /* ExchangeInteractor.swift */,
+				B7EB47B621454B7800DB86C4 /* ExchangeView.swift */,
 			);
-			path = Run;
+			path = Exchange;
+			sourceTree = "<group>";
+		};
+		B7EB47CA21454BA300DB86C4 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				B7EB47BE21454B9E00DB86C4 /* MineDisplayData.swift */,
+				B7EB47BF21454B9E00DB86C4 /* MinePresenter.swift */,
+				B7EB47C021454B9E00DB86C4 /* MineRouter.swift */,
+				B7EB47C121454B9E00DB86C4 /* MineModuleApi.swift */,
+				B7EB47C221454B9E00DB86C4 /* MineInteractor.swift */,
+				B7EB47C321454B9E00DB86C4 /* MineView.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		B7EB47E821454BFE00DB86C4 /* CToC */ = {
+			isa = PBXGroup;
+			children = (
+				B7EB47DA21454BFB00DB86C4 /* CToC.storyboard */,
+				B7EB47DB21454BFB00DB86C4 /* CToCDisplayData.swift */,
+				B7EB47DC21454BFB00DB86C4 /* CToCPresenter.swift */,
+				B7EB47DD21454BFB00DB86C4 /* CToCRouter.swift */,
+				B7EB47DE21454BFB00DB86C4 /* CToCModuleApi.swift */,
+				B7EB47DF21454BFB00DB86C4 /* CToCInteractor.swift */,
+				B7EB47E021454BFB00DB86C4 /* CToCView.swift */,
+			);
+			path = CToC;
+			sourceTree = "<group>";
+		};
+		B7EB47EB21454DAC00DB86C4 /* LSNaviViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B7EB47E921454DA700DB86C4 /* LSNaviViewController.swift */,
+			);
+			path = LSNaviViewController;
+			sourceTree = "<group>";
+		};
+		B7EB47EE214550EE00DB86C4 /* LSBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B7EB47EC214550E700DB86C4 /* LSBaseViewController.swift */,
+			);
+			path = LSBaseViewController;
 			sourceTree = "<group>";
 		};
 		E2364AE521421EB7008B6FDB = {
@@ -362,6 +319,8 @@
 		E2364AF021421EB7008B6FDB /* LSWDAX */ = {
 			isa = PBXGroup;
 			children = (
+				B7850EA2214571AB00D668C4 /* UIStyle */,
+				B7850E9F214569EF00D668C4 /* Extension */,
 				B7EB479B214502DD00DB86C4 /* Protocol */,
 				E2364B0321421F09008B6FDB /* AppDelegate */,
 				E2364B0421422053008B6FDB /* Storyboard */,
@@ -378,6 +337,7 @@
 			isa = PBXGroup;
 			children = (
 				E2364AF121421EB7008B6FDB /* AppDelegate.swift */,
+				B7EB47AF21454A5C00DB86C4 /* AppModules.swift */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -389,7 +349,6 @@
 				E2364B0721422128008B6FDB /* C2C */,
 				E2364B0621422120008B6FDB /* Exchange */,
 				E2364B0521422114008B6FDB /* Home */,
-				E2364AF521421EB7008B6FDB /* Main.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -429,27 +388,15 @@
 		E2364B11214222E9008B6FDB /* Interface */ = {
 			isa = PBXGroup;
 			children = (
-				B75E7A2821439506006111B3 /* Market */,
-				E25DA16821428FB6007F55E0 /* Mine */,
+				B7EB47EB21454DAC00DB86C4 /* LSNaviViewController */,
+				B7EB47EE214550EE00DB86C4 /* LSBaseViewController */,
+				B7EB47AA21453B8B00DB86C4 /* Tabar */,
 				E293C00A21427BA3006E231E /* Home */,
-				16C48956C4A3DFF43F55C562 /* Exchange */,
-				D31D0F16CFE64FA6CE82524B /* Run */,
+				B7EB47BD21454B7E00DB86C4 /* Exchange */,
+				B7EB47CA21454BA300DB86C4 /* Mine */,
+				B7EB47E821454BFE00DB86C4 /* CToC */,
 			);
 			path = Interface;
-			sourceTree = "<group>";
-		};
-		E25DA16821428FB6007F55E0 /* Mine */ = {
-			isa = PBXGroup;
-			children = (
-				E25DA16921428FD0007F55E0 /* Mine.storyboard */,
-				E25DA16A21428FD0007F55E0 /* MineDisplayData.swift */,
-				E25DA16B21428FD0007F55E0 /* MinePresenter.swift */,
-				E25DA16C21428FD0007F55E0 /* MineRouter.swift */,
-				E25DA16D21428FD0007F55E0 /* MineModuleApi.swift */,
-				E25DA16E21428FD0007F55E0 /* MineInteractor.swift */,
-				E25DA16F21428FD0007F55E0 /* MineView.swift */,
-			);
-			path = Mine;
 			sourceTree = "<group>";
 		};
 		E293C00A21427BA3006E231E /* Home */ = {
@@ -530,15 +477,14 @@
 			files = (
 				B7EB47A1214504C800DB86C4 /* HomeSectionTitleHeader.xib in Resources */,
 				B7EB47A621452C3D00DB86C4 /* ScrollStackView.xib in Resources */,
+				B7EB47E121454BFB00DB86C4 /* CToC.storyboard in Resources */,
 				B75E7A5D21446D77006111B3 /* VolumeRankCell.xib in Resources */,
 				E2364B1021422205008B6FDB /* Home.storyboard in Resources */,
 				E2364AFC21421EB8008B6FDB /* LaunchScreen.storyboard in Resources */,
 				B75E7A562144654D006111B3 /* AccountView.xib in Resources */,
 				E2364B0C214221DB008B6FDB /* CToC.storyboard in Resources */,
 				B75E7A5121445E7E006111B3 /* DIGICCYMarketView.xib in Resources */,
-				E25DA17021428FD0007F55E0 /* Mine.storyboard in Resources */,
 				E2364AF921421EB8008B6FDB /* Assets.xcassets in Resources */,
-				E2364AF721421EB7008B6FDB /* Main.storyboard in Resources */,
 				E2364B0A214221B6008B6FDB /* Mine.storyboard in Resources */,
 				E2364B0E214221F1008B6FDB /* Exchange.storyboard in Resources */,
 			);
@@ -598,66 +544,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B75E7A302143952F006111B3 /* MarketPresenter.swift in Sources */,
 				B7EB479D2145039900DB86C4 /* TableView+protocol.swift in Sources */,
+				B7EB47B721454B7800DB86C4 /* ExchangeDisplayData.swift in Sources */,
+				B7EB47B821454B7800DB86C4 /* ExchangePresenter.swift in Sources */,
+				B7EB47C521454B9E00DB86C4 /* MinePresenter.swift in Sources */,
 				B75E7A4121443CBE006111B3 /* HomeInteractor.swift in Sources */,
 				E2364AF421421EB7008B6FDB /* ViewController.swift in Sources */,
 				E2364AF221421EB7008B6FDB /* AppDelegate.swift in Sources */,
 				B75E7A4021443CBE006111B3 /* HomeModuleApi.swift in Sources */,
-				E25DA17321428FD0007F55E0 /* MineRouter.swift in Sources */,
-				E25DA17221428FD0007F55E0 /* MinePresenter.swift in Sources */,
-				E25DA17121428FD0007F55E0 /* MineDisplayData.swift in Sources */,
-				B75E7A322143952F006111B3 /* MarketModuleApi.swift in Sources */,
-				E25DA17621428FD0007F55E0 /* MineView.swift in Sources */,
-				84ABA7D1E94D41D370A9CBA1 /* LSExchangeViewInput.swift in Sources */,
-				8D5354C7AE01E15B986CABF7 /* LSExchangeViewOutput.swift in Sources */,
-				2F91CF1F6EB5446E6C69E7DD /* LSExchangeViewController.swift in Sources */,
+				B7EB47E321454BFB00DB86C4 /* CToCPresenter.swift in Sources */,
+				B7EB47BB21454B7800DB86C4 /* ExchangeInteractor.swift in Sources */,
+				B7EB47BC21454B7800DB86C4 /* ExchangeView.swift in Sources */,
+				B7EB47C421454B9E00DB86C4 /* MineDisplayData.swift in Sources */,
+				B7850EA121456A3C00D668C4 /* UIView+Extension.swift in Sources */,
+				B7EB47C621454B9E00DB86C4 /* MineRouter.swift in Sources */,
+				B7EB47BA21454B7800DB86C4 /* ExchangeModuleApi.swift in Sources */,
+				B7EB47E221454BFB00DB86C4 /* CToCDisplayData.swift in Sources */,
+				B7EB47E621454BFB00DB86C4 /* CToCInteractor.swift in Sources */,
+				B7EB47AE21453C9500DB86C4 /* LSTabBarViewController.swift in Sources */,
+				B7EB47EA21454DA700DB86C4 /* LSNaviViewController.swift in Sources */,
 				B75E7A5421446541006111B3 /* AccountView.swift in Sources */,
-				3502476AECDB8782CA8DB5DB /* LSExchangeModuleInput.swift in Sources */,
 				B75E7A4F21445E6A006111B3 /* DIGICCYMarketView.swift in Sources */,
-				AEAFA7605FFA66FE0588005D /* LSExchangePresenter.swift in Sources */,
 				B75E7A4221443CBE006111B3 /* HomeView.swift in Sources */,
-				8AB7BA7D879C5EE2570D9427 /* LSExchangeInteractorInput.swift in Sources */,
+				B7EB47C721454B9E00DB86C4 /* MineModuleApi.swift in Sources */,
+				B7EB47C921454B9E00DB86C4 /* MineView.swift in Sources */,
+				B7EB47E721454BFB00DB86C4 /* CToCView.swift in Sources */,
+				B7EB47E421454BFB00DB86C4 /* CToCRouter.swift in Sources */,
+				B7EB47E521454BFB00DB86C4 /* CToCModuleApi.swift in Sources */,
+				B7EB47ED214550E700DB86C4 /* LSBaseViewController.swift in Sources */,
+				B7EB47B021454A5C00DB86C4 /* AppModules.swift in Sources */,
 				B75E7A5C21446D77006111B3 /* VolumeRankCell.swift in Sources */,
-				E881249D93C9CA4555B2A24F /* LSExchangeInteractorOutput.swift in Sources */,
-				FF2D9D996A3FA7535F0D47E6 /* LSExchangeInteractor.swift in Sources */,
-				B1153DCEA33350EF65861FD7 /* LSExchangeRouterInput.swift in Sources */,
-				E25DA17421428FD0007F55E0 /* MineModuleApi.swift in Sources */,
-				CEC035E55ABDF5698E5F426F /* LSExchangeRouter.swift in Sources */,
-				B75E7A342143952F006111B3 /* MarketView.swift in Sources */,
-				B75E7A312143952F006111B3 /* MarketRouter.swift in Sources */,
-				E25DA17521428FD0007F55E0 /* MineInteractor.swift in Sources */,
-				20C482DA32B107EC0311601F /* LSExchangeConfigurator.swift in Sources */,
-				A71E76325ECEC217C9E7C465 /* LSExchangeInitializer.swift in Sources */,
-				6E0340A30CD7E976743698D1 /* LSRunViewInput.swift in Sources */,
 				B75E7A3F21443CBE006111B3 /* HomeRouter.swift in Sources */,
-				B75E7A2F2143952F006111B3 /* MarketDisplayData.swift in Sources */,
-				DB86E5838142C735BF22430F /* LSRunViewOutput.swift in Sources */,
-				B75E7A332143952F006111B3 /* MarketInteractor.swift in Sources */,
+				B7850EA6214573F100D668C4 /* Color+Extension.swift in Sources */,
 				B7EB479F214504BA00DB86C4 /* HomeSectionTitleHeader.swift in Sources */,
+				B7EB47B921454B7800DB86C4 /* ExchangeRouter.swift in Sources */,
+				B7EB47C821454B9E00DB86C4 /* MineInteractor.swift in Sources */,
 				B75E7A3E21443CBE006111B3 /* HomePresenter.swift in Sources */,
-				FC0C4691273CF9A2549C77D5 /* LSRunViewController.swift in Sources */,
-				09ECAB8D21BA5CB3ECD62D17 /* LSRunModuleInput.swift in Sources */,
-				2BF137DF17B8CB57C7149827 /* LSRunPresenter.swift in Sources */,
 				B7EB47A421452C3100DB86C4 /* ScrollStackView.swift in Sources */,
 				B7EB47A9214531F600DB86C4 /* MarketListVew.swift in Sources */,
 				B75E7A3D21443CBE006111B3 /* HomeDisplayData.swift in Sources */,
-				F370BC8F04ED5B7B07C3851D /* LSRunConfigurator.swift in Sources */,
-				47E05DAEE7F2907B93E9DD53 /* LSRunInitializer.swift in Sources */,
+				B7850EA42145729D00D668C4 /* UIStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E2364AF521421EB7008B6FDB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E2364AF621421EB7008B6FDB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E2364AFA21421EB8008B6FDB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -11,6 +11,9 @@ import Viperit
 
 // MARK: - HomePresenter Class
 final class HomePresenter: Presenter {
+    override func viewHasLoaded() {
+        self.view.prepare()
+    }
 }
 
 // MARK: - HomePresenter API

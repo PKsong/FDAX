@@ -10,6 +10,9 @@ import UIKit
 
 class AccountView: UIView, NibLoadableView {
 
+    @IBOutlet weak var contentView: UIView!
+    @IBOutlet weak var wdaxView: UIView!
+    @IBOutlet weak var exchangeView: UIView!
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
@@ -17,5 +20,9 @@ class AccountView: UIView, NibLoadableView {
         // Drawing code
     }
     */
-
+    override func awakeFromNib() {
+        self.contentView.set(cornerRadius: 0, borderColor: UIColor.gray, borderWidth: 1)
+        self.wdaxView.set(cornerRadius: nil, borderColor: UIColor.gray, borderWidth: 1)
+        self.exchangeView.set(cornerRadius: nil, borderColor: UIColor.gray, borderWidth: 1)
+    }
 }

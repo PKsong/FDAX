@@ -140,6 +140,11 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="contentView" destination="JUF-N9-Yrw" id="wD8-0V-dVv"/>
+                <outlet property="exchangeView" destination="eX8-dZ-SPf" id="766-tZ-9m0"/>
+                <outlet property="wdaxView" destination="DwV-Jw-zfp" id="uFk-HZ-Kgo"/>
+            </connections>
             <point key="canvasLocation" x="-79.5" y="-29.5"/>
         </view>
     </objects>

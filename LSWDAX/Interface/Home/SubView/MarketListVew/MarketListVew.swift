@@ -33,7 +33,12 @@ class MarketListVew: UIView {
     
     func update(data: [DIGICCYMarketModel]) {
         let views = data.map { (model) -> DIGICCYMarketView in
-            return DIGICCYMarketView.loadNib()
+            let view = DIGICCYMarketView.loadNib()
+            view.line.isHidden = false
+            return view
+        }
+        if let last = views.last {
+            last.line.isHidden = true
         }
         backView.views = views
     }

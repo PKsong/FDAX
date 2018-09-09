@@ -10,19 +10,20 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Ls Home View Controller-->
+        <!--WDAX-->
         <scene sceneID="ltU-Dl-iry">
             <objects>
-                <viewController storyboardIdentifier="LSHomeViewController" id="XkJ-sm-6Bf" customClass="HomeView" customModule="LSWDAX" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeView" id="XkJ-sm-6Bf" customClass="HomeView" customModule="LSWDAX" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RfR-gf-Bwa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0H8-9N-ytj">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="0H8-9N-ytj">
                                 <rect key="frame" x="0.0" y="116" width="375" height="551"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="XkJ-sm-6Bf" id="edi-oW-tcq"/>
+                                    <outlet property="delegate" destination="XkJ-sm-6Bf" id="Gwt-va-83M"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -41,11 +42,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kWC-w8-f5v" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="m4O-5s-jRE" customClass="LSHomeModuleInitializer" customModule="LSWDAX" customModuleProvider="target">
-                    <connections>
-                        <outlet property="lsHomeViewController" destination="XkJ-sm-6Bf" id="5MU-yB-Yav"/>
-                    </connections>
-                </customObject>
             </objects>
             <point key="canvasLocation" x="809" y="-94"/>
         </scene>

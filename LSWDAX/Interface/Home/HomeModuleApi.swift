@@ -14,6 +14,7 @@ protocol HomeRouterApi: RouterProtocol {
 
 //MARK: - HomeView API
 protocol HomeViewApi: UserInterfaceProtocol {
+    func prepare()
 }
 
 //MARK: - HomePresenter API
