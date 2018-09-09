@@ -13,7 +13,7 @@
         <!--Ls Home View Controller-->
         <scene sceneID="ltU-Dl-iry">
             <objects>
-                <viewController storyboardIdentifier="LSHomeViewController" id="XkJ-sm-6Bf" customClass="LSHomeViewController" customModule="LSWDAX" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LSHomeViewController" id="XkJ-sm-6Bf" customClass="HomeView" customModule="LSWDAX" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RfR-gf-Bwa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,6 +21,9 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0H8-9N-ytj">
                                 <rect key="frame" x="0.0" y="116" width="375" height="551"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="XkJ-sm-6Bf" id="edi-oW-tcq"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -33,6 +36,9 @@
                         <viewLayoutGuide key="safeArea" id="spT-DU-uVd"/>
                     </view>
                     <navigationItem key="navigationItem" title="WDAX" id="eB8-Oq-rea"/>
+                    <connections>
+                        <outlet property="tableView" destination="0H8-9N-ytj" id="rTk-Fh-N1M"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kWC-w8-f5v" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="m4O-5s-jRE" customClass="LSHomeModuleInitializer" customModule="LSWDAX" customModuleProvider="target">

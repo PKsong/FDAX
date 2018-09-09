@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ScrollStackView" customModule="LSWDAX" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="448" height="122"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ijs-4c-NR5">
+                    <rect key="frame" x="0.0" y="0.0" width="448" height="122"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="obB-bd-KlI">
+                            <rect key="frame" x="0.0" y="0.0" width="448" height="122"/>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="obB-bd-KlI" firstAttribute="top" secondItem="ijs-4c-NR5" secondAttribute="top" id="03O-o9-OTQ"/>
+                        <constraint firstItem="obB-bd-KlI" firstAttribute="height" secondItem="ijs-4c-NR5" secondAttribute="height" id="Djf-Y9-g00"/>
+                        <constraint firstAttribute="trailing" secondItem="obB-bd-KlI" secondAttribute="trailing" id="RKm-2x-uSF"/>
+                        <constraint firstItem="obB-bd-KlI" firstAttribute="leading" secondItem="ijs-4c-NR5" secondAttribute="leading" id="fiL-bI-k5m"/>
+                        <constraint firstAttribute="bottom" secondItem="obB-bd-KlI" secondAttribute="bottom" id="gmo-rQ-VhO"/>
+                        <constraint firstItem="obB-bd-KlI" firstAttribute="width" secondItem="ijs-4c-NR5" secondAttribute="width" id="qx7-IP-QPK"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ijs-4c-NR5" secondAttribute="trailing" id="KHA-Qw-hQF"/>
+                <constraint firstItem="ijs-4c-NR5" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="bcU-Rz-ddG"/>
+                <constraint firstItem="ijs-4c-NR5" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="oVf-iY-TWJ"/>
+                <constraint firstAttribute="bottom" secondItem="ijs-4c-NR5" secondAttribute="bottom" id="waL-HJ-DDt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="contentView" destination="obB-bd-KlI" id="PyJ-a6-Ssg"/>
+                <outlet property="scrollView" destination="ijs-4c-NR5" id="3l7-Tq-b1v"/>
+                <outlet property="widthLayout" destination="qx7-IP-QPK" id="3iH-M3-2di"/>
+            </connections>
+            <point key="canvasLocation" x="14" y="-267"/>
+        </view>
+    </objects>
+</document>
