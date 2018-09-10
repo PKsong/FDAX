@@ -37,6 +37,6 @@ class ScrollStackView: UIView, NibLoadableView {
     */
     override func layoutSubviews() {
         let diff = views.count - maxCount
-        widthLayout.constant = diff > 0 ? CGFloat(diff) * (scrollView.bounds.width / CGFloat(maxCount)) : 0
+        widthLayout.constant = diff > 0 ? CGFloat(diff) * (self.frame.width / CGFloat(maxCount)) : 0
     }
 }

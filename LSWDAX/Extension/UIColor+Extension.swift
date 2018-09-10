@@ -1,5 +1,5 @@
 //
-//  Color+Extension.swift
+//  UIColor+Extension.swift
 //  LSWDAX
 //
 //  Created by superMac on 2018/9/9.

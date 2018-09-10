@@ -26,7 +26,9 @@ class LSTabBarViewController: UITabBarController {
             .home,
             .exchange,
             .cToC,
-            .mine
+            .mine,
+            .wDAXAccount,
+            .exchangeAccount
         ]
         
         viewControllers = modules.map({ mod -> UIViewController in
@@ -49,6 +51,10 @@ class LSTabBarViewController: UITabBarController {
             case .mine:
                 nav.tabBarItem.title = "我的"
                 break
+            case .wDAXAccount:
+                nav.tabBarItem.title = "账户"
+            case .exchangeAccount:
+                nav.tabBarItem.title = "交易账户"
             }
             return nav
         })

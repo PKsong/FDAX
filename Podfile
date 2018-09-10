@@ -9,6 +9,7 @@ def common_pods
     pod 'IQKeyboardManagerSwift'
     pod 'HandyJSON', '4.1.1'
     pod 'MJRefresh'
+    pod 'Then'
 end
 
 target 'LSWDAX' do

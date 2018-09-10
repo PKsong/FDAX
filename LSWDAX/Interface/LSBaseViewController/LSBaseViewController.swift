@@ -14,7 +14,8 @@ class LSBaseViewController: UIViewController {
         super.viewDidLoad()
         if #available(iOS 11, *) {
             self.navigationController?.navigationBar.prefersLargeTitles = true
-        } 
+        }
+        self.view.backgroundColor = UIStyle.backGroundColor
         // Do any additional setup after loading the view.
     }
 

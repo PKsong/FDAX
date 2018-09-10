@@ -14,5 +14,7 @@ enum AppModules: String, ViperitModule {
     case exchange
     case cToC
     case mine
+    case wDAXAccount
+    case exchangeAccount
 }
 

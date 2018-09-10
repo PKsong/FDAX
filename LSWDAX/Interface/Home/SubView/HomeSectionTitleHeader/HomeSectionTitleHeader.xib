@@ -30,6 +30,9 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="titleLabel" destination="dxF-Fi-Jal" id="ptf-fP-pCV"/>
+            </connections>
             <point key="canvasLocation" x="-241.5" y="-169"/>
         </view>
     </objects>

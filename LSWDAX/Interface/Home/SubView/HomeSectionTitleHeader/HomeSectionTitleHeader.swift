@@ -9,6 +9,7 @@
 import UIKit
 
 class HomeSectionTitleHeader: UIView, NibLoadableView {
+    @IBOutlet weak var titleLabel: UILabel!
     override func awakeFromNib() {
         
     }

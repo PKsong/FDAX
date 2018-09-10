@@ -1,5 +1,5 @@
 //
-//  AccountView.swift
+//  AccountItemView.swift
 //  LSWDAX
 //
 //  Created by superMac on 2018/9/9.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AccountView: UIView, NibLoadableView {
+class AccountItemView: UIView, NibLoadableView {
 
     @IBOutlet weak var contentView: UIView!
     @IBOutlet weak var wdaxView: UIView!

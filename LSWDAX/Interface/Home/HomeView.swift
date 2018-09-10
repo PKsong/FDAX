@@ -48,7 +48,7 @@ extension HomeView: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100
+        return 80
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
@@ -58,7 +58,7 @@ extension HomeView: UITableViewDelegate, UITableViewDataSource {
             listView.update(data: [DIGICCYMarketModel(), DIGICCYMarketModel(), DIGICCYMarketModel(), DIGICCYMarketModel()])
             return listView
         case 1:
-            return AccountView.loadNib()
+            return AccountItemView.loadNib()
         case 2:
             return HomeSectionTitleHeader.loadNib()
         default:
