@@ -13,3 +13,11 @@ import Viperit
 final class MineDisplayData: DisplayData {
     
 }
+
+struct MineHomeModel {
+    var image: String
+    var title: String
+    var actionNeedLogIn: Bool
+    var action: (() -> Void)
+}
+

@@ -21,8 +21,8 @@ class AccountItemView: UIView, NibLoadableView {
     }
     */
     override func awakeFromNib() {
-        self.contentView.set(cornerRadius: 0, borderColor: UIColor.gray, borderWidth: 1)
-        self.wdaxView.set(cornerRadius: nil, borderColor: UIColor.gray, borderWidth: 1)
-        self.exchangeView.set(cornerRadius: nil, borderColor: UIColor.gray, borderWidth: 1)
+//        self.contentView.set(cornerRadius: 0, borderColor: UIColor.gray, borderWidth: 1)
+        self.wdaxView.set(cornerRadius: nil, borderColor: UIColor.gray, borderWidth: 1 / UIScreen.main.scale)
+        self.exchangeView.set(cornerRadius: nil, borderColor: UIColor.gray, borderWidth: 1 / UIScreen.main.scale)
     }
 }

@@ -22,6 +22,26 @@
 		B7850EA121456A3C00D668C4 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7850EA021456A3C00D668C4 /* UIView+Extension.swift */; };
 		B7850EA42145729D00D668C4 /* UIStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7850EA32145729D00D668C4 /* UIStyle.swift */; };
 		B7850EA6214573F100D668C4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7850EA5214573F100D668C4 /* UIColor+Extension.swift */; };
+		B7B914222146AB7000FE9AD8 /* AccountFlowDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B9141B2146AB7000FE9AD8 /* AccountFlowDetail.storyboard */; };
+		B7B914232146AB7000FE9AD8 /* AccountFlowDetailDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9141C2146AB7000FE9AD8 /* AccountFlowDetailDisplayData.swift */; };
+		B7B914242146AB7000FE9AD8 /* AccountFlowDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9141D2146AB7000FE9AD8 /* AccountFlowDetailPresenter.swift */; };
+		B7B914252146AB7000FE9AD8 /* AccountFlowDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9141E2146AB7000FE9AD8 /* AccountFlowDetailRouter.swift */; };
+		B7B914262146AB7000FE9AD8 /* AccountFlowDetailModuleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9141F2146AB7000FE9AD8 /* AccountFlowDetailModuleApi.swift */; };
+		B7B914272146AB7000FE9AD8 /* AccountFlowDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B914202146AB7000FE9AD8 /* AccountFlowDetailInteractor.swift */; };
+		B7B914282146AB7000FE9AD8 /* AccountFlowDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B914212146AB7000FE9AD8 /* AccountFlowDetailView.swift */; };
+		B7B9142C2146AC0300FE9AD8 /* AccountFlowDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9142A2146AC0300FE9AD8 /* AccountFlowDetailCell.swift */; };
+		B7B9142D2146AC0300FE9AD8 /* AccountFlowDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7B9142B2146AC0300FE9AD8 /* AccountFlowDetailCell.xib */; };
+		B7B9142F2146B2ED00FE9AD8 /* UIScreen+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9142E2146B2ED00FE9AD8 /* UIScreen+Extention.swift */; };
+		B7B914322146B71100FE9AD8 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B914312146B71000FE9AD8 /* Mine.storyboard */; };
+		B7B914362146C16100FE9AD8 /* MineUserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B914352146C16100FE9AD8 /* MineUserInfoView.swift */; };
+		B7B914382146C16F00FE9AD8 /* MineUserInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7B914372146C16F00FE9AD8 /* MineUserInfoView.xib */; };
+		B7B914412146CC3900FE9AD8 /* AccountUSDTTransform.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B9143A2146CC3900FE9AD8 /* AccountUSDTTransform.storyboard */; };
+		B7B914422146CC3900FE9AD8 /* AccountUSDTTransformDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9143B2146CC3900FE9AD8 /* AccountUSDTTransformDisplayData.swift */; };
+		B7B914432146CC3900FE9AD8 /* AccountUSDTTransformPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9143C2146CC3900FE9AD8 /* AccountUSDTTransformPresenter.swift */; };
+		B7B914442146CC3900FE9AD8 /* AccountUSDTTransformRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9143D2146CC3900FE9AD8 /* AccountUSDTTransformRouter.swift */; };
+		B7B914452146CC3900FE9AD8 /* AccountUSDTTransformModuleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9143E2146CC3900FE9AD8 /* AccountUSDTTransformModuleApi.swift */; };
+		B7B914462146CC3900FE9AD8 /* AccountUSDTTransformInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9143F2146CC3900FE9AD8 /* AccountUSDTTransformInteractor.swift */; };
+		B7B914472146CC3900FE9AD8 /* AccountUSDTTransformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B914402146CC3900FE9AD8 /* AccountUSDTTransformView.swift */; };
 		B7EB479D2145039900DB86C4 /* TableView+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB479C2145039900DB86C4 /* TableView+Protocol.swift */; };
 		B7EB479F214504BA00DB86C4 /* HomeSectionTitleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB479E214504BA00DB86C4 /* HomeSectionTitleHeader.swift */; };
 		B7EB47A1214504C800DB86C4 /* HomeSectionTitleHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7EB47A0214504C800DB86C4 /* HomeSectionTitleHeader.xib */; };
@@ -56,8 +76,6 @@
 		E2364AF421421EB7008B6FDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2364AF321421EB7008B6FDB /* ViewController.swift */; };
 		E2364AF921421EB8008B6FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2364AF821421EB8008B6FDB /* Assets.xcassets */; };
 		E2364AFC21421EB8008B6FDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2364AFA21421EB8008B6FDB /* LaunchScreen.storyboard */; };
-		E2364B0A214221B6008B6FDB /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2364B09214221B6008B6FDB /* Mine.storyboard */; };
-		E2364B0C214221DB008B6FDB /* CToC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2364B0B214221DB008B6FDB /* CToC.storyboard */; };
 		E2364B0E214221F1008B6FDB /* Exchange.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2364B0D214221F1008B6FDB /* Exchange.storyboard */; };
 		E2364B1021422205008B6FDB /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2364B0F21422205008B6FDB /* Home.storyboard */; };
 		E258E5B1214616FD006075B8 /* WDAXAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E258E5AA214616FD006075B8 /* WDAXAccount.storyboard */; };
@@ -102,6 +120,26 @@
 		B7850EA021456A3C00D668C4 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		B7850EA32145729D00D668C4 /* UIStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStyle.swift; sourceTree = "<group>"; };
 		B7850EA5214573F100D668C4 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		B7B9141B2146AB7000FE9AD8 /* AccountFlowDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AccountFlowDetail.storyboard; sourceTree = "<group>"; };
+		B7B9141C2146AB7000FE9AD8 /* AccountFlowDetailDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountFlowDetailDisplayData.swift; sourceTree = "<group>"; };
+		B7B9141D2146AB7000FE9AD8 /* AccountFlowDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountFlowDetailPresenter.swift; sourceTree = "<group>"; };
+		B7B9141E2146AB7000FE9AD8 /* AccountFlowDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountFlowDetailRouter.swift; sourceTree = "<group>"; };
+		B7B9141F2146AB7000FE9AD8 /* AccountFlowDetailModuleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountFlowDetailModuleApi.swift; sourceTree = "<group>"; };
+		B7B914202146AB7000FE9AD8 /* AccountFlowDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountFlowDetailInteractor.swift; sourceTree = "<group>"; };
+		B7B914212146AB7000FE9AD8 /* AccountFlowDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountFlowDetailView.swift; sourceTree = "<group>"; };
+		B7B9142A2146AC0300FE9AD8 /* AccountFlowDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountFlowDetailCell.swift; sourceTree = "<group>"; };
+		B7B9142B2146AC0300FE9AD8 /* AccountFlowDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountFlowDetailCell.xib; sourceTree = "<group>"; };
+		B7B9142E2146B2ED00FE9AD8 /* UIScreen+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extention.swift"; sourceTree = "<group>"; };
+		B7B914312146B71000FE9AD8 /* Mine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
+		B7B914352146C16100FE9AD8 /* MineUserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineUserInfoView.swift; sourceTree = "<group>"; };
+		B7B914372146C16F00FE9AD8 /* MineUserInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineUserInfoView.xib; sourceTree = "<group>"; };
+		B7B9143A2146CC3900FE9AD8 /* AccountUSDTTransform.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AccountUSDTTransform.storyboard; sourceTree = "<group>"; };
+		B7B9143B2146CC3900FE9AD8 /* AccountUSDTTransformDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountUSDTTransformDisplayData.swift; sourceTree = "<group>"; };
+		B7B9143C2146CC3900FE9AD8 /* AccountUSDTTransformPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountUSDTTransformPresenter.swift; sourceTree = "<group>"; };
+		B7B9143D2146CC3900FE9AD8 /* AccountUSDTTransformRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountUSDTTransformRouter.swift; sourceTree = "<group>"; };
+		B7B9143E2146CC3900FE9AD8 /* AccountUSDTTransformModuleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountUSDTTransformModuleApi.swift; sourceTree = "<group>"; };
+		B7B9143F2146CC3900FE9AD8 /* AccountUSDTTransformInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountUSDTTransformInteractor.swift; sourceTree = "<group>"; };
+		B7B914402146CC3900FE9AD8 /* AccountUSDTTransformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountUSDTTransformView.swift; sourceTree = "<group>"; };
 		B7EB479C2145039900DB86C4 /* TableView+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+Protocol.swift"; sourceTree = "<group>"; };
 		B7EB479E214504BA00DB86C4 /* HomeSectionTitleHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSectionTitleHeader.swift; sourceTree = "<group>"; };
 		B7EB47A0214504C800DB86C4 /* HomeSectionTitleHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeSectionTitleHeader.xib; sourceTree = "<group>"; };
@@ -137,8 +175,6 @@
 		E2364AF821421EB8008B6FDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2364AFB21421EB8008B6FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2364AFD21421EB8008B6FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2364B09214221B6008B6FDB /* Mine.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
-		E2364B0B214221DB008B6FDB /* CToC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CToC.storyboard; sourceTree = "<group>"; };
 		E2364B0D214221F1008B6FDB /* Exchange.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Exchange.storyboard; sourceTree = "<group>"; };
 		E2364B0F21422205008B6FDB /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		E258E5AA214616FD006075B8 /* WDAXAccount.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WDAXAccount.storyboard; sourceTree = "<group>"; };
@@ -239,6 +275,7 @@
 			children = (
 				B7850EA021456A3C00D668C4 /* UIView+Extension.swift */,
 				B7850EA5214573F100D668C4 /* UIColor+Extension.swift */,
+				B7B9142E2146B2ED00FE9AD8 /* UIScreen+Extention.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -249,6 +286,61 @@
 				B7850EA32145729D00D668C4 /* UIStyle.swift */,
 			);
 			path = UIStyle;
+			sourceTree = "<group>";
+		};
+		B7B9141A2146AB4100FE9AD8 /* AccountFlowDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B7B914292146ABD800FE9AD8 /* SubView */,
+				B7B9141B2146AB7000FE9AD8 /* AccountFlowDetail.storyboard */,
+				B7B9141C2146AB7000FE9AD8 /* AccountFlowDetailDisplayData.swift */,
+				B7B9141D2146AB7000FE9AD8 /* AccountFlowDetailPresenter.swift */,
+				B7B9141E2146AB7000FE9AD8 /* AccountFlowDetailRouter.swift */,
+				B7B9141F2146AB7000FE9AD8 /* AccountFlowDetailModuleApi.swift */,
+				B7B914202146AB7000FE9AD8 /* AccountFlowDetailInteractor.swift */,
+				B7B914212146AB7000FE9AD8 /* AccountFlowDetailView.swift */,
+			);
+			path = AccountFlowDetail;
+			sourceTree = "<group>";
+		};
+		B7B914292146ABD800FE9AD8 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				B7B9142A2146AC0300FE9AD8 /* AccountFlowDetailCell.swift */,
+				B7B9142B2146AC0300FE9AD8 /* AccountFlowDetailCell.xib */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		B7B914332146C13800FE9AD8 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				B7B914342146C14400FE9AD8 /* MineUserInfoView */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		B7B914342146C14400FE9AD8 /* MineUserInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				B7B914352146C16100FE9AD8 /* MineUserInfoView.swift */,
+				B7B914372146C16F00FE9AD8 /* MineUserInfoView.xib */,
+			);
+			path = MineUserInfoView;
+			sourceTree = "<group>";
+		};
+		B7B914392146CBF700FE9AD8 /* AccountUSDTTransform */ = {
+			isa = PBXGroup;
+			children = (
+				B7B9143A2146CC3900FE9AD8 /* AccountUSDTTransform.storyboard */,
+				B7B9143B2146CC3900FE9AD8 /* AccountUSDTTransformDisplayData.swift */,
+				B7B9143C2146CC3900FE9AD8 /* AccountUSDTTransformPresenter.swift */,
+				B7B9143D2146CC3900FE9AD8 /* AccountUSDTTransformRouter.swift */,
+				B7B9143E2146CC3900FE9AD8 /* AccountUSDTTransformModuleApi.swift */,
+				B7B9143F2146CC3900FE9AD8 /* AccountUSDTTransformInteractor.swift */,
+				B7B914402146CC3900FE9AD8 /* AccountUSDTTransformView.swift */,
+			);
+			path = AccountUSDTTransform;
 			sourceTree = "<group>";
 		};
 		B7EB479B214502DD00DB86C4 /* Protocol */ = {
@@ -287,6 +379,7 @@
 		B7EB47BD21454B7E00DB86C4 /* Exchange */ = {
 			isa = PBXGroup;
 			children = (
+				E2364B0D214221F1008B6FDB /* Exchange.storyboard */,
 				B7EB47B121454B7800DB86C4 /* ExchangeDisplayData.swift */,
 				B7EB47B221454B7800DB86C4 /* ExchangePresenter.swift */,
 				B7EB47B321454B7800DB86C4 /* ExchangeRouter.swift */,
@@ -300,6 +393,8 @@
 		B7EB47CA21454BA300DB86C4 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				B7B914332146C13800FE9AD8 /* SubView */,
+				B7B914312146B71000FE9AD8 /* Mine.storyboard */,
 				B7EB47BE21454B9E00DB86C4 /* MineDisplayData.swift */,
 				B7EB47BF21454B9E00DB86C4 /* MinePresenter.swift */,
 				B7EB47C021454B9E00DB86C4 /* MineRouter.swift */,
@@ -366,7 +461,6 @@
 				B7850E9F214569EF00D668C4 /* Extension */,
 				B7EB479B214502DD00DB86C4 /* Protocol */,
 				E2364B0321421F09008B6FDB /* AppDelegate */,
-				E2364B0421422053008B6FDB /* Storyboard */,
 				E2364B11214222E9008B6FDB /* Interface */,
 				E2364AF321421EB7008B6FDB /* ViewController.swift */,
 				E2364AF821421EB8008B6FDB /* Assets.xcassets */,
@@ -385,55 +479,13 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
-		E2364B0421422053008B6FDB /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				E2364B0821422133008B6FDB /* Mine */,
-				E2364B0721422128008B6FDB /* C2C */,
-				E2364B0621422120008B6FDB /* Exchange */,
-				E2364B0521422114008B6FDB /* Home */,
-			);
-			path = Storyboard;
-			sourceTree = "<group>";
-		};
-		E2364B0521422114008B6FDB /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				E2364B0F21422205008B6FDB /* Home.storyboard */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		E2364B0621422120008B6FDB /* Exchange */ = {
-			isa = PBXGroup;
-			children = (
-				E2364B0D214221F1008B6FDB /* Exchange.storyboard */,
-			);
-			path = Exchange;
-			sourceTree = "<group>";
-		};
-		E2364B0721422128008B6FDB /* C2C */ = {
-			isa = PBXGroup;
-			children = (
-				E2364B0B214221DB008B6FDB /* CToC.storyboard */,
-			);
-			path = C2C;
-			sourceTree = "<group>";
-		};
-		E2364B0821422133008B6FDB /* Mine */ = {
-			isa = PBXGroup;
-			children = (
-				E2364B09214221B6008B6FDB /* Mine.storyboard */,
-			);
-			path = Mine;
-			sourceTree = "<group>";
-		};
 		E2364B11214222E9008B6FDB /* Interface */ = {
 			isa = PBXGroup;
 			children = (
-				E258E59A21460D2A006075B8 /* Account */,
+				B7B914392146CBF700FE9AD8 /* AccountUSDTTransform */,
 				B7EB47EB21454DAC00DB86C4 /* LSNaviViewController */,
 				B7EB47EE214550EE00DB86C4 /* LSBaseViewController */,
+				E258E59A21460D2A006075B8 /* Account */,
 				B7EB47AA21453B8B00DB86C4 /* Tabar */,
 				E293C00A21427BA3006E231E /* Home */,
 				B7EB47BD21454B7E00DB86C4 /* Exchange */,
@@ -471,6 +523,7 @@
 		E258E59A21460D2A006075B8 /* Account */ = {
 			isa = PBXGroup;
 			children = (
+				B7B9141A2146AB4100FE9AD8 /* AccountFlowDetail */,
 				E258E5CF214666B0006075B8 /* ExchangerAccount */,
 				E258E5A921461577006075B8 /* WDAXAccount */,
 			);
@@ -565,6 +618,7 @@
 			isa = PBXGroup;
 			children = (
 				B75E7A4D21445D77006111B3 /* SubView */,
+				E2364B0F21422205008B6FDB /* Home.storyboard */,
 				B75E7A3721443CBE006111B3 /* HomeDisplayData.swift */,
 				B75E7A3821443CBE006111B3 /* HomePresenter.swift */,
 				B75E7A3921443CBE006111B3 /* HomeRouter.swift */,
@@ -644,15 +698,18 @@
 				B7EB47E121454BFB00DB86C4 /* CToC.storyboard in Resources */,
 				E258E5D7214666D3006075B8 /* ExchangeAccount.storyboard in Resources */,
 				B75E7A5D21446D77006111B3 /* VolumeRankCell.xib in Resources */,
+				B7B914322146B71100FE9AD8 /* Mine.storyboard in Resources */,
 				E2364B1021422205008B6FDB /* Home.storyboard in Resources */,
 				E2364AFC21421EB8008B6FDB /* LaunchScreen.storyboard in Resources */,
 				B75E7A562144654D006111B3 /* AccountItemView.xib in Resources */,
 				E258E5B1214616FD006075B8 /* WDAXAccount.storyboard in Resources */,
+				B7B914382146C16F00FE9AD8 /* MineUserInfoView.xib in Resources */,
+				B7B914412146CC3900FE9AD8 /* AccountUSDTTransform.storyboard in Resources */,
 				E258E5C921464EEA006075B8 /* AccountFlowListCell.xib in Resources */,
-				E2364B0C214221DB008B6FDB /* CToC.storyboard in Resources */,
+				B7B914222146AB7000FE9AD8 /* AccountFlowDetail.storyboard in Resources */,
+				B7B9142D2146AC0300FE9AD8 /* AccountFlowDetailCell.xib in Resources */,
 				B75E7A5121445E7E006111B3 /* DIGICCYMarketView.xib in Resources */,
 				E2364AF921421EB8008B6FDB /* Assets.xcassets in Resources */,
-				E2364B0A214221B6008B6FDB /* Mine.storyboard in Resources */,
 				E2364B0E214221F1008B6FDB /* Exchange.storyboard in Resources */,
 				E258E5E32146826C006075B8 /* ExchangeAccountInfoView.xib in Resources */,
 			);
@@ -725,10 +782,12 @@
 				E2364AF221421EB7008B6FDB /* AppDelegate.swift in Sources */,
 				E258E5B4214616FD006075B8 /* WDAXAccountRouter.swift in Sources */,
 				B75E7A4021443CBE006111B3 /* HomeModuleApi.swift in Sources */,
+				B7B914252146AB7000FE9AD8 /* AccountFlowDetailRouter.swift in Sources */,
 				B7EB47E321454BFB00DB86C4 /* CToCPresenter.swift in Sources */,
 				B7EB47BB21454B7800DB86C4 /* ExchangeInteractor.swift in Sources */,
 				B7EB47BC21454B7800DB86C4 /* ExchangeView.swift in Sources */,
 				B7EB47C421454B9E00DB86C4 /* MineDisplayData.swift in Sources */,
+				B7B914232146AB7000FE9AD8 /* AccountFlowDetailDisplayData.swift in Sources */,
 				B7850EA121456A3C00D668C4 /* UIView+Extension.swift in Sources */,
 				B7EB47C621454B9E00DB86C4 /* MineRouter.swift in Sources */,
 				B7EB47BA21454B7800DB86C4 /* ExchangeModuleApi.swift in Sources */,
@@ -738,38 +797,51 @@
 				B7EB47EA21454DA700DB86C4 /* LSNaviViewController.swift in Sources */,
 				B75E7A5421446541006111B3 /* AccountItemView.swift in Sources */,
 				B75E7A4F21445E6A006111B3 /* DIGICCYMarketView.swift in Sources */,
+				B7B9142F2146B2ED00FE9AD8 /* UIScreen+Extention.swift in Sources */,
 				B75E7A4221443CBE006111B3 /* HomeView.swift in Sources */,
+				B7B914242146AB7000FE9AD8 /* AccountFlowDetailPresenter.swift in Sources */,
 				B7EB47C721454B9E00DB86C4 /* MineModuleApi.swift in Sources */,
 				E258E5DD214666D3006075B8 /* ExchangeAccountView.swift in Sources */,
 				E258E5DA214666D3006075B8 /* ExchangeAccountRouter.swift in Sources */,
+				B7B914432146CC3900FE9AD8 /* AccountUSDTTransformPresenter.swift in Sources */,
 				E258E5DB214666D3006075B8 /* ExchangeAccountModuleApi.swift in Sources */,
+				B7B9142C2146AC0300FE9AD8 /* AccountFlowDetailCell.swift in Sources */,
 				B7EB47C921454B9E00DB86C4 /* MineView.swift in Sources */,
 				B7EB47E721454BFB00DB86C4 /* CToCView.swift in Sources */,
 				B7EB47E421454BFB00DB86C4 /* CToCRouter.swift in Sources */,
+				B7B914282146AB7000FE9AD8 /* AccountFlowDetailView.swift in Sources */,
 				E258E5C221464AB2006075B8 /* AccountMenuItemView.swift in Sources */,
+				B7B914362146C16100FE9AD8 /* MineUserInfoView.swift in Sources */,
 				B7EB47E521454BFB00DB86C4 /* CToCModuleApi.swift in Sources */,
 				E258E5B2214616FD006075B8 /* WDAXAccountDisplayData.swift in Sources */,
 				B7EB47ED214550E700DB86C4 /* LSBaseViewController.swift in Sources */,
 				B7EB47B021454A5C00DB86C4 /* AppModules.swift in Sources */,
 				E258E5DC214666D3006075B8 /* ExchangeAccountInteractor.swift in Sources */,
 				E258E5B7214616FD006075B8 /* WDAXAccountView.swift in Sources */,
+				B7B914262146AB7000FE9AD8 /* AccountFlowDetailModuleApi.swift in Sources */,
 				E258E5B3214616FD006075B8 /* WDAXAccountPresenter.swift in Sources */,
 				E258E5D8214666D3006075B8 /* ExchangeAccountDisplayData.swift in Sources */,
+				B7B914442146CC3900FE9AD8 /* AccountUSDTTransformRouter.swift in Sources */,
 				B75E7A5C21446D77006111B3 /* VolumeRankCell.swift in Sources */,
 				B75E7A3F21443CBE006111B3 /* HomeRouter.swift in Sources */,
+				B7B914272146AB7000FE9AD8 /* AccountFlowDetailInteractor.swift in Sources */,
 				B7850EA6214573F100D668C4 /* UIColor+Extension.swift in Sources */,
 				B7EB479F214504BA00DB86C4 /* HomeSectionTitleHeader.swift in Sources */,
 				B7EB47B921454B7800DB86C4 /* ExchangeRouter.swift in Sources */,
 				E258E5D9214666D3006075B8 /* ExchangeAccountPresenter.swift in Sources */,
+				B7B914472146CC3900FE9AD8 /* AccountUSDTTransformView.swift in Sources */,
 				B7EB47C821454B9E00DB86C4 /* MineInteractor.swift in Sources */,
 				B75E7A3E21443CBE006111B3 /* HomePresenter.swift in Sources */,
+				B7B914452146CC3900FE9AD8 /* AccountUSDTTransformModuleApi.swift in Sources */,
 				B7EB47A421452C3100DB86C4 /* ScrollStackView.swift in Sources */,
 				E258E5CC21466255006075B8 /* WDAXAccountInfoView.swift in Sources */,
 				E258E5B6214616FD006075B8 /* WDAXAccountInteractor.swift in Sources */,
 				B7EB47A9214531F600DB86C4 /* MarketListVew.swift in Sources */,
+				B7B914462146CC3900FE9AD8 /* AccountUSDTTransformInteractor.swift in Sources */,
 				B75E7A3D21443CBE006111B3 /* HomeDisplayData.swift in Sources */,
 				B7850EA42145729D00D668C4 /* UIStyle.swift in Sources */,
 				E258E5E121468260006075B8 /* ExchangeAccountInfoView.swift in Sources */,
+				B7B914422146CC3900FE9AD8 /* AccountUSDTTransformDisplayData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

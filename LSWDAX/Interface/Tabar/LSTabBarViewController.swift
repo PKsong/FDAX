@@ -28,7 +28,8 @@ class LSTabBarViewController: UITabBarController {
             .cToC,
             .mine,
             .wDAXAccount,
-            .exchangeAccount
+            .exchangeAccount,
+            .accountFlowDetail
         ]
         
         viewControllers = modules.map({ mod -> UIViewController in
@@ -52,9 +53,11 @@ class LSTabBarViewController: UITabBarController {
                 nav.tabBarItem.title = "我的"
                 break
             case .wDAXAccount:
-                nav.tabBarItem.title = "账户"
+                nav.tabBarItem.title = "WDAX账户"
             case .exchangeAccount:
                 nav.tabBarItem.title = "交易账户"
+            case .accountFlowDetail:
+                nav.tabBarItem.title = "流水详情"
             }
             return nav
         })

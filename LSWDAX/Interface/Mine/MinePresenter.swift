@@ -11,6 +11,15 @@ import Viperit
 
 // MARK: - MinePresenter Class
 final class MinePresenter: Presenter {
+    override func viewHasLoaded() {
+        self.view.prepare()
+        self.updateViewCell()
+    }
+    
+    func updateViewCell() {
+        let datas = self.interactor.loadSettingDatas()
+        self.view.update(settingCell: datas)
+    }
 }
 
 // MARK: - MinePresenter API
