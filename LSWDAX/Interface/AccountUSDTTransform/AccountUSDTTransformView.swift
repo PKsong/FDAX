@@ -15,6 +15,7 @@ final class AccountUSDTTransformView: UserInterface {
 
 //MARK: - AccountUSDTTransformView API
 extension AccountUSDTTransformView: AccountUSDTTransformViewApi {
+    
 }
 
 // MARK: - AccountUSDTTransformView Viper Components API
