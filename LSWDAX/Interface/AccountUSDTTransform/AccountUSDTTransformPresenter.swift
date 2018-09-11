@@ -11,6 +11,9 @@ import Viperit
 
 // MARK: - AccountUSDTTransformPresenter Class
 final class AccountUSDTTransformPresenter: Presenter {
+    override func viewHasLoaded() {
+        self.view.prepare()
+    }
 }
 
 // MARK: - AccountUSDTTransformPresenter API

@@ -15,7 +15,11 @@ final class AccountUSDTTransformView: UserInterface {
 
 //MARK: - AccountUSDTTransformView API
 extension AccountUSDTTransformView: AccountUSDTTransformViewApi {
-    
+    func prepare() {
+        if #available(iOS 11, *) {
+            self.navigationController?.navigationBar.prefersLargeTitles = true
+        }
+    }
 }
 
 // MARK: - AccountUSDTTransformView Viper Components API

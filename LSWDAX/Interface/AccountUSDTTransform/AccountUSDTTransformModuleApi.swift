@@ -14,6 +14,7 @@ protocol AccountUSDTTransformRouterApi: RouterProtocol {
 
 //MARK: - AccountUSDTTransformView API
 protocol AccountUSDTTransformViewApi: UserInterfaceProtocol {
+    func prepare()
 }
 
 //MARK: - AccountUSDTTransformPresenter API

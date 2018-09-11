@@ -18,5 +18,6 @@ enum AppModules: String, ViperitModule {
     case exchangeAccount
     case accountFlowDetail
     case accountUSDTTransform
+    case extractUSDT
 }
 

@@ -42,6 +42,13 @@
 		B7B914452146CC3900FE9AD8 /* AccountUSDTTransformModuleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9143E2146CC3900FE9AD8 /* AccountUSDTTransformModuleApi.swift */; };
 		B7B914462146CC3900FE9AD8 /* AccountUSDTTransformInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9143F2146CC3900FE9AD8 /* AccountUSDTTransformInteractor.swift */; };
 		B7B914472146CC3900FE9AD8 /* AccountUSDTTransformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B914402146CC3900FE9AD8 /* AccountUSDTTransformView.swift */; };
+		B7D1111221481AED000B9728 /* ExtractUSDT.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D1110B21481AED000B9728 /* ExtractUSDT.storyboard */; };
+		B7D1111321481AED000B9728 /* ExtractUSDTDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1110C21481AED000B9728 /* ExtractUSDTDisplayData.swift */; };
+		B7D1111421481AED000B9728 /* ExtractUSDTPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1110D21481AED000B9728 /* ExtractUSDTPresenter.swift */; };
+		B7D1111521481AED000B9728 /* ExtractUSDTRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1110E21481AED000B9728 /* ExtractUSDTRouter.swift */; };
+		B7D1111621481AED000B9728 /* ExtractUSDTModuleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1110F21481AED000B9728 /* ExtractUSDTModuleApi.swift */; };
+		B7D1111721481AED000B9728 /* ExtractUSDTInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1111021481AED000B9728 /* ExtractUSDTInteractor.swift */; };
+		B7D1111821481AED000B9728 /* ExtractUSDTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1111121481AED000B9728 /* ExtractUSDTView.swift */; };
 		B7EB479D2145039900DB86C4 /* TableView+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB479C2145039900DB86C4 /* TableView+Protocol.swift */; };
 		B7EB479F214504BA00DB86C4 /* HomeSectionTitleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB479E214504BA00DB86C4 /* HomeSectionTitleHeader.swift */; };
 		B7EB47A1214504C800DB86C4 /* HomeSectionTitleHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7EB47A0214504C800DB86C4 /* HomeSectionTitleHeader.xib */; };
@@ -140,6 +147,13 @@
 		B7B9143E2146CC3900FE9AD8 /* AccountUSDTTransformModuleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountUSDTTransformModuleApi.swift; sourceTree = "<group>"; };
 		B7B9143F2146CC3900FE9AD8 /* AccountUSDTTransformInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountUSDTTransformInteractor.swift; sourceTree = "<group>"; };
 		B7B914402146CC3900FE9AD8 /* AccountUSDTTransformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountUSDTTransformView.swift; sourceTree = "<group>"; };
+		B7D1110B21481AED000B9728 /* ExtractUSDT.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExtractUSDT.storyboard; sourceTree = "<group>"; };
+		B7D1110C21481AED000B9728 /* ExtractUSDTDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractUSDTDisplayData.swift; sourceTree = "<group>"; };
+		B7D1110D21481AED000B9728 /* ExtractUSDTPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractUSDTPresenter.swift; sourceTree = "<group>"; };
+		B7D1110E21481AED000B9728 /* ExtractUSDTRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractUSDTRouter.swift; sourceTree = "<group>"; };
+		B7D1110F21481AED000B9728 /* ExtractUSDTModuleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractUSDTModuleApi.swift; sourceTree = "<group>"; };
+		B7D1111021481AED000B9728 /* ExtractUSDTInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractUSDTInteractor.swift; sourceTree = "<group>"; };
+		B7D1111121481AED000B9728 /* ExtractUSDTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractUSDTView.swift; sourceTree = "<group>"; };
 		B7EB479C2145039900DB86C4 /* TableView+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+Protocol.swift"; sourceTree = "<group>"; };
 		B7EB479E214504BA00DB86C4 /* HomeSectionTitleHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSectionTitleHeader.swift; sourceTree = "<group>"; };
 		B7EB47A0214504C800DB86C4 /* HomeSectionTitleHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeSectionTitleHeader.xib; sourceTree = "<group>"; };
@@ -343,6 +357,20 @@
 			path = AccountUSDTTransform;
 			sourceTree = "<group>";
 		};
+		B7D110EE21481958000B9728 /* ExtractUSDT */ = {
+			isa = PBXGroup;
+			children = (
+				B7D1110B21481AED000B9728 /* ExtractUSDT.storyboard */,
+				B7D1110C21481AED000B9728 /* ExtractUSDTDisplayData.swift */,
+				B7D1110D21481AED000B9728 /* ExtractUSDTPresenter.swift */,
+				B7D1110E21481AED000B9728 /* ExtractUSDTRouter.swift */,
+				B7D1110F21481AED000B9728 /* ExtractUSDTModuleApi.swift */,
+				B7D1111021481AED000B9728 /* ExtractUSDTInteractor.swift */,
+				B7D1111121481AED000B9728 /* ExtractUSDTView.swift */,
+			);
+			path = ExtractUSDT;
+			sourceTree = "<group>";
+		};
 		B7EB479B214502DD00DB86C4 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
@@ -482,6 +510,7 @@
 		E2364B11214222E9008B6FDB /* Interface */ = {
 			isa = PBXGroup;
 			children = (
+				B7D110EE21481958000B9728 /* ExtractUSDT */,
 				B7B914392146CBF700FE9AD8 /* AccountUSDTTransform */,
 				B7EB47EB21454DAC00DB86C4 /* LSNaviViewController */,
 				B7EB47EE214550EE00DB86C4 /* LSBaseViewController */,
@@ -707,6 +736,7 @@
 				B7B914412146CC3900FE9AD8 /* AccountUSDTTransform.storyboard in Resources */,
 				E258E5C921464EEA006075B8 /* AccountFlowListCell.xib in Resources */,
 				B7B914222146AB7000FE9AD8 /* AccountFlowDetail.storyboard in Resources */,
+				B7D1111221481AED000B9728 /* ExtractUSDT.storyboard in Resources */,
 				B7B9142D2146AC0300FE9AD8 /* AccountFlowDetailCell.xib in Resources */,
 				B75E7A5121445E7E006111B3 /* DIGICCYMarketView.xib in Resources */,
 				E2364AF921421EB8008B6FDB /* Assets.xcassets in Resources */,
@@ -783,6 +813,7 @@
 				E258E5B4214616FD006075B8 /* WDAXAccountRouter.swift in Sources */,
 				B75E7A4021443CBE006111B3 /* HomeModuleApi.swift in Sources */,
 				B7B914252146AB7000FE9AD8 /* AccountFlowDetailRouter.swift in Sources */,
+				B7D1111621481AED000B9728 /* ExtractUSDTModuleApi.swift in Sources */,
 				B7EB47E321454BFB00DB86C4 /* CToCPresenter.swift in Sources */,
 				B7EB47BB21454B7800DB86C4 /* ExchangeInteractor.swift in Sources */,
 				B7EB47BC21454B7800DB86C4 /* ExchangeView.swift in Sources */,
@@ -797,6 +828,7 @@
 				B7EB47EA21454DA700DB86C4 /* LSNaviViewController.swift in Sources */,
 				B75E7A5421446541006111B3 /* AccountItemView.swift in Sources */,
 				B75E7A4F21445E6A006111B3 /* DIGICCYMarketView.swift in Sources */,
+				B7D1111321481AED000B9728 /* ExtractUSDTDisplayData.swift in Sources */,
 				B7B9142F2146B2ED00FE9AD8 /* UIScreen+Extention.swift in Sources */,
 				B75E7A4221443CBE006111B3 /* HomeView.swift in Sources */,
 				B7B914242146AB7000FE9AD8 /* AccountFlowDetailPresenter.swift in Sources */,
@@ -817,6 +849,7 @@
 				B7EB47ED214550E700DB86C4 /* LSBaseViewController.swift in Sources */,
 				B7EB47B021454A5C00DB86C4 /* AppModules.swift in Sources */,
 				E258E5DC214666D3006075B8 /* ExchangeAccountInteractor.swift in Sources */,
+				B7D1111721481AED000B9728 /* ExtractUSDTInteractor.swift in Sources */,
 				E258E5B7214616FD006075B8 /* WDAXAccountView.swift in Sources */,
 				B7B914262146AB7000FE9AD8 /* AccountFlowDetailModuleApi.swift in Sources */,
 				E258E5B3214616FD006075B8 /* WDAXAccountPresenter.swift in Sources */,
@@ -829,9 +862,11 @@
 				B7EB479F214504BA00DB86C4 /* HomeSectionTitleHeader.swift in Sources */,
 				B7EB47B921454B7800DB86C4 /* ExchangeRouter.swift in Sources */,
 				E258E5D9214666D3006075B8 /* ExchangeAccountPresenter.swift in Sources */,
+				B7D1111821481AED000B9728 /* ExtractUSDTView.swift in Sources */,
 				B7B914472146CC3900FE9AD8 /* AccountUSDTTransformView.swift in Sources */,
 				B7EB47C821454B9E00DB86C4 /* MineInteractor.swift in Sources */,
 				B75E7A3E21443CBE006111B3 /* HomePresenter.swift in Sources */,
+				B7D1111421481AED000B9728 /* ExtractUSDTPresenter.swift in Sources */,
 				B7B914452146CC3900FE9AD8 /* AccountUSDTTransformModuleApi.swift in Sources */,
 				B7EB47A421452C3100DB86C4 /* ScrollStackView.swift in Sources */,
 				E258E5CC21466255006075B8 /* WDAXAccountInfoView.swift in Sources */,
@@ -839,6 +874,7 @@
 				B7EB47A9214531F600DB86C4 /* MarketListVew.swift in Sources */,
 				B7B914462146CC3900FE9AD8 /* AccountUSDTTransformInteractor.swift in Sources */,
 				B75E7A3D21443CBE006111B3 /* HomeDisplayData.swift in Sources */,
+				B7D1111521481AED000B9728 /* ExtractUSDTRouter.swift in Sources */,
 				B7850EA42145729D00D668C4 /* UIStyle.swift in Sources */,
 				E258E5E121468260006075B8 /* ExchangeAccountInfoView.swift in Sources */,
 				B7B914422146CC3900FE9AD8 /* AccountUSDTTransformDisplayData.swift in Sources */,
