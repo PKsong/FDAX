@@ -2,18 +2,19 @@
 //  ExchangeModuleApi.swift
 //  LSWDAX
 //
-//  Created by superMac on 2018/9/9.
+//  Created by appple on 2018/9/12.
 //Copyright © 2018年 landsone. All rights reserved.
 //
 
 import Viperit
 
-//MARK: - Exchangeouter API
+//MARK: - ExchangeRouter API
 protocol ExchangeRouterApi: RouterProtocol {
 }
 
 //MARK: - ExchangeView API
 protocol ExchangeViewApi: UserInterfaceProtocol {
+    func prepare()
 }
 
 //MARK: - ExchangePresenter API

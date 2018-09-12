@@ -10,6 +10,7 @@ def common_pods
     pod 'HandyJSON', '4.1.1'
     pod 'MJRefresh'
     pod 'Then'
+    pod 'XCGLogger', '~> 6.0.4'
 end
 
 target 'LSWDAX' do

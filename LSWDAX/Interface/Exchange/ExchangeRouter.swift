@@ -1,19 +1,19 @@
 //
-//  Exchangeouter.swift
+//  ExchangeRouter.swift
 //  LSWDAX
 //
-//  Created by superMac on 2018/9/9.
+//  Created by appple on 2018/9/12.
 //Copyright © 2018年 landsone. All rights reserved.
 //
 
 import Foundation
 import Viperit
 
-// MARK: - Exchangeouter class
+// MARK: - ExchangeRouter class
 final class ExchangeRouter: Router {
 }
 
-// MARK: - Exchangeouter API
+// MARK: - ExchangeRouter API
 extension ExchangeRouter: ExchangeRouterApi {
 }
 
