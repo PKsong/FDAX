@@ -1,24 +1,23 @@
 //
-//  OrderListView.swift
+//  OrderHistoryListView.swift
 //  LSWDAX
 //
-//  Created by appple on 2018/9/13.
+//  Created by superMac on 2018/9/13.
 //Copyright © 2018年 landsone. All rights reserved.
 //
 
 import UIKit
 import Viperit
 
-//MARK: OrderListView Class
-final class OrderListView: UserInterface {
+//MARK: OrderHistoryListView Class
+final class OrderHistoryListView: UserInterface {
     //MARK: - *********** Liftcycle ***********
     
     //MARK: - *********** SubViews ***********
     
     @IBOutlet weak var tableView: UITableView!
-    let haeder = OrderListHeadView.loadNib().then { (head) in
-//        head.frame = CGRect.init(x: 0, y: 0, width: UIScreen.screenWidth(), height: 60)
-    }
+    let haeder = OrderHistoryListHeadView.loadNib()
+    
     //MARK: - *********** Variable ***********
     
     //MARK: - Delegate
@@ -32,13 +31,13 @@ final class OrderListView: UserInterface {
     //MARK: - Public Method
 }
 
-//MARK: - OrderListView API
-extension OrderListView: OrderListViewApi {
+//MARK: - OrderHistoryListView API
+extension OrderHistoryListView: OrderHistoryListViewApi {
     func prepare() {
         if #available(iOS 11, *) {
             self.navigationController?.navigationBar.prefersLargeTitles = true
         }
-        tableView.registerNib(OrderListCell.self)
+        tableView.registerNib(OrderHistoryListCell.self)
         tableView.separatorInset = UIEdgeInsets.init(top: 0, left: -10, bottom: 0, right: 0)
         tableView.separatorColor = UIStyle.backGroundColor
         let haeder = UIView().then { [weak self] (view) in
@@ -52,23 +51,23 @@ extension OrderListView: OrderListViewApi {
     }
 }
 
-extension OrderListView: UITableViewDelegate, UITableViewDataSource {
+extension OrderHistoryListView: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         
-        return 10
-    }
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
     }
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(OrderListCell.self, forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCell(OrderHistoryListCell.self, forIndexPath: indexPath)
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100
+        return 72
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
@@ -77,20 +76,21 @@ extension OrderListView: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         
-        return section == 0 ? 5 : 0.01
+        return 0.01
     }
     
     func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        return 5
+        return 0.01
     }
 }
 
-// MARK: - OrderListView Viper Components API
-private extension OrderListView {
-    var presenter: OrderListPresenterApi {
-        return _presenter as! OrderListPresenterApi
+
+// MARK: - OrderHistoryListView Viper Components API
+private extension OrderHistoryListView {
+    var presenter: OrderHistoryListPresenterApi {
+        return _presenter as! OrderHistoryListPresenterApi
     }
-    var displayData: OrderListDisplayData {
-        return _displayData as! OrderListDisplayData
+    var displayData: OrderHistoryListDisplayData {
+        return _displayData as! OrderHistoryListDisplayData
     }
 }

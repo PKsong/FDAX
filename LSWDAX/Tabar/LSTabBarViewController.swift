@@ -32,7 +32,13 @@ class LSTabBarViewController: UITabBarController {
             .accountFlowDetail,
             .accountUSDTTransform,
             .extractUSDT,
-            .order
+            .order,
+            .orderList,
+            .orderDetail,
+            .orderHistoryList,
+            .orderHistoryDetail,
+            .register,
+            .login
         ]
         
         viewControllers = modules.map({ mod -> UIViewController in
@@ -63,6 +69,18 @@ class LSTabBarViewController: UITabBarController {
                 nav.tabBarItem.title = "USDT提取"
             case .order:
                 nav.tabBarItem.title = "下单"
+            case .orderList:
+                nav.tabBarItem.title = "持仓订单"
+            case .orderDetail:
+                nav.tabBarItem.title = "订单详情"
+            case .orderHistoryList:
+                nav.tabBarItem.title = "历史订单"
+            case .orderHistoryDetail:
+                nav.tabBarItem.title = "历史订单详情"
+            case .register:
+                nav.tabBarItem.title = "注册"
+            case .login:
+                nav.tabBarItem.title = "登录"
             }
             return nav
         })

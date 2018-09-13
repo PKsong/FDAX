@@ -20,5 +20,11 @@ enum AppModules: String, ViperitModule {
     case accountUSDTTransform
     case extractUSDT
     case order
+    case orderList
+    case orderDetail
+    case orderHistoryList
+    case orderHistoryDetail
+    case register
+    case login
 }
 
