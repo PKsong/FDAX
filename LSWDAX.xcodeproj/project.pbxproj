@@ -122,6 +122,23 @@
 		E2AD1A2021490FCE00232AAE /* KLineView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2AD1A1F21490FCE00232AAE /* KLineView.xib */; };
 		E2AD1A23214910E900232AAE /* ExchangeTipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AD1A22214910E900232AAE /* ExchangeTipsView.swift */; };
 		E2AD1A25214910F200232AAE /* ExchangeTipsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2AD1A24214910F200232AAE /* ExchangeTipsView.xib */; };
+		E2AE4EF7214A3362003D9C8C /* Exchange.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2AE4EF6214A3362003D9C8C /* Exchange.xcassets */; };
+		E2AE4F0E214A4E41003D9C8C /* Order.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2AE4F07214A4E41003D9C8C /* Order.storyboard */; };
+		E2AE4F0F214A4E41003D9C8C /* OrderDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE4F08214A4E41003D9C8C /* OrderDisplayData.swift */; };
+		E2AE4F10214A4E41003D9C8C /* OrderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE4F09214A4E41003D9C8C /* OrderPresenter.swift */; };
+		E2AE4F11214A4E41003D9C8C /* OrderRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE4F0A214A4E41003D9C8C /* OrderRouter.swift */; };
+		E2AE4F12214A4E41003D9C8C /* OrderModuleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE4F0B214A4E41003D9C8C /* OrderModuleApi.swift */; };
+		E2AE4F13214A4E41003D9C8C /* OrderInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE4F0C214A4E41003D9C8C /* OrderInteractor.swift */; };
+		E2AE4F14214A4E41003D9C8C /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE4F0D214A4E41003D9C8C /* OrderView.swift */; };
+		E2AE4F17214A6592003D9C8C /* OerderConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE4F16214A6592003D9C8C /* OerderConfirmView.swift */; };
+		E2AE4F19214A659A003D9C8C /* OerderConfirmView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2AE4F18214A659A003D9C8C /* OerderConfirmView.xib */; };
+		E2AE4F22214A7347003D9C8C /* OrderList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2AE4F1B214A7347003D9C8C /* OrderList.storyboard */; };
+		E2AE4F23214A7347003D9C8C /* OrderListDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE4F1C214A7347003D9C8C /* OrderListDisplayData.swift */; };
+		E2AE4F24214A7347003D9C8C /* OrderListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE4F1D214A7347003D9C8C /* OrderListPresenter.swift */; };
+		E2AE4F25214A7347003D9C8C /* OrderListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE4F1E214A7347003D9C8C /* OrderListRouter.swift */; };
+		E2AE4F26214A7347003D9C8C /* OrderListModuleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE4F1F214A7347003D9C8C /* OrderListModuleApi.swift */; };
+		E2AE4F27214A7347003D9C8C /* OrderListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE4F20214A7347003D9C8C /* OrderListInteractor.swift */; };
+		E2AE4F28214A7347003D9C8C /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE4F21214A7347003D9C8C /* OrderListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -243,6 +260,23 @@
 		E2AD1A1F21490FCE00232AAE /* KLineView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KLineView.xib; sourceTree = "<group>"; };
 		E2AD1A22214910E900232AAE /* ExchangeTipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeTipsView.swift; sourceTree = "<group>"; };
 		E2AD1A24214910F200232AAE /* ExchangeTipsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExchangeTipsView.xib; sourceTree = "<group>"; };
+		E2AE4EF6214A3362003D9C8C /* Exchange.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Exchange.xcassets; sourceTree = "<group>"; };
+		E2AE4F07214A4E41003D9C8C /* Order.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Order.storyboard; sourceTree = "<group>"; };
+		E2AE4F08214A4E41003D9C8C /* OrderDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDisplayData.swift; sourceTree = "<group>"; };
+		E2AE4F09214A4E41003D9C8C /* OrderPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPresenter.swift; sourceTree = "<group>"; };
+		E2AE4F0A214A4E41003D9C8C /* OrderRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRouter.swift; sourceTree = "<group>"; };
+		E2AE4F0B214A4E41003D9C8C /* OrderModuleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModuleApi.swift; sourceTree = "<group>"; };
+		E2AE4F0C214A4E41003D9C8C /* OrderInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderInteractor.swift; sourceTree = "<group>"; };
+		E2AE4F0D214A4E41003D9C8C /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		E2AE4F16214A6592003D9C8C /* OerderConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OerderConfirmView.swift; sourceTree = "<group>"; };
+		E2AE4F18214A659A003D9C8C /* OerderConfirmView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OerderConfirmView.xib; sourceTree = "<group>"; };
+		E2AE4F1B214A7347003D9C8C /* OrderList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OrderList.storyboard; sourceTree = "<group>"; };
+		E2AE4F1C214A7347003D9C8C /* OrderListDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListDisplayData.swift; sourceTree = "<group>"; };
+		E2AE4F1D214A7347003D9C8C /* OrderListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListPresenter.swift; sourceTree = "<group>"; };
+		E2AE4F1E214A7347003D9C8C /* OrderListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListRouter.swift; sourceTree = "<group>"; };
+		E2AE4F1F214A7347003D9C8C /* OrderListModuleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListModuleApi.swift; sourceTree = "<group>"; };
+		E2AE4F20214A7347003D9C8C /* OrderListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListInteractor.swift; sourceTree = "<group>"; };
+		E2AE4F21214A7347003D9C8C /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 		F0E455C6D1EF417C943F5599 /* Pods-LSWDAX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSWDAX.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSWDAX/Pods-LSWDAX.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -505,6 +539,9 @@
 				B7850E9F214569EF00D668C4 /* Extension */,
 				B7EB479B214502DD00DB86C4 /* Protocol */,
 				E2364B0321421F09008B6FDB /* AppDelegate */,
+				B7EB47EB21454DAC00DB86C4 /* LSNaviViewController */,
+				B7EB47EE214550EE00DB86C4 /* LSBaseViewController */,
+				B7EB47AA21453B8B00DB86C4 /* Tabar */,
 				E2364B11214222E9008B6FDB /* Interface */,
 				E2364AF321421EB7008B6FDB /* ViewController.swift */,
 				E2364AF821421EB8008B6FDB /* Assets.xcassets */,
@@ -530,10 +567,7 @@
 				E2AD19EF2148B70000232AAE /* Exchange */,
 				B7D110EE21481958000B9728 /* ExtractUSDT */,
 				B7B914392146CBF700FE9AD8 /* AccountUSDTTransform */,
-				B7EB47EB21454DAC00DB86C4 /* LSNaviViewController */,
-				B7EB47EE214550EE00DB86C4 /* LSBaseViewController */,
 				E258E59A21460D2A006075B8 /* Account */,
-				B7EB47AA21453B8B00DB86C4 /* Tabar */,
 				E293C00A21427BA3006E231E /* Home */,
 				B7EB47CA21454BA300DB86C4 /* Mine */,
 				B7EB47E821454BFE00DB86C4 /* CToC */,
@@ -678,6 +712,8 @@
 		E2AD19EF2148B70000232AAE /* Exchange */ = {
 			isa = PBXGroup;
 			children = (
+				E2AE4F1A214A732F003D9C8C /* OrderList */,
+				E2AE4EF8214A4DCE003D9C8C /* Order */,
 				E2AD1A022148E99400232AAE /* SubView */,
 				E2AD19F02148B72C00232AAE /* Exchange.storyboard */,
 				E2AD19F12148B72C00232AAE /* ExchangeDisplayData.swift */,
@@ -686,6 +722,7 @@
 				E2AD19F42148B72C00232AAE /* ExchangeModuleApi.swift */,
 				E2AD19F52148B72C00232AAE /* ExchangeInteractor.swift */,
 				E2AD19F62148B72C00232AAE /* ExchangeView.swift */,
+				E2AE4EF6214A3362003D9C8C /* Exchange.xcassets */,
 			);
 			path = Exchange;
 			sourceTree = "<group>";
@@ -767,6 +804,44 @@
 			path = ExchangeTipsView;
 			sourceTree = "<group>";
 		};
+		E2AE4EF8214A4DCE003D9C8C /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				E2AE4F15214A6532003D9C8C /* OerderConfirmView */,
+				E2AE4F07214A4E41003D9C8C /* Order.storyboard */,
+				E2AE4F08214A4E41003D9C8C /* OrderDisplayData.swift */,
+				E2AE4F09214A4E41003D9C8C /* OrderPresenter.swift */,
+				E2AE4F0A214A4E41003D9C8C /* OrderRouter.swift */,
+				E2AE4F0B214A4E41003D9C8C /* OrderModuleApi.swift */,
+				E2AE4F0C214A4E41003D9C8C /* OrderInteractor.swift */,
+				E2AE4F0D214A4E41003D9C8C /* OrderView.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		E2AE4F15214A6532003D9C8C /* OerderConfirmView */ = {
+			isa = PBXGroup;
+			children = (
+				E2AE4F16214A6592003D9C8C /* OerderConfirmView.swift */,
+				E2AE4F18214A659A003D9C8C /* OerderConfirmView.xib */,
+			);
+			path = OerderConfirmView;
+			sourceTree = "<group>";
+		};
+		E2AE4F1A214A732F003D9C8C /* OrderList */ = {
+			isa = PBXGroup;
+			children = (
+				E2AE4F1B214A7347003D9C8C /* OrderList.storyboard */,
+				E2AE4F1C214A7347003D9C8C /* OrderListDisplayData.swift */,
+				E2AE4F1D214A7347003D9C8C /* OrderListPresenter.swift */,
+				E2AE4F1E214A7347003D9C8C /* OrderListRouter.swift */,
+				E2AE4F1F214A7347003D9C8C /* OrderListModuleApi.swift */,
+				E2AE4F20214A7347003D9C8C /* OrderListInteractor.swift */,
+				E2AE4F21214A7347003D9C8C /* OrderListView.swift */,
+			);
+			path = OrderList;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -830,8 +905,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E258E5CE21466261006075B8 /* WDAXAccountInfoView.xib in Resources */,
+				E2AE4F22214A7347003D9C8C /* OrderList.storyboard in Resources */,
 				B7EB47A1214504C800DB86C4 /* HomeSectionTitleHeader.xib in Resources */,
 				B7EB47A621452C3D00DB86C4 /* ScrollStackView.xib in Resources */,
+				E2AE4F0E214A4E41003D9C8C /* Order.storyboard in Resources */,
 				E258E5C421464ACE006075B8 /* AccountMenuItemView.xib in Resources */,
 				B7EB47E121454BFB00DB86C4 /* CToC.storyboard in Resources */,
 				E258E5D7214666D3006075B8 /* ExchangeAccount.storyboard in Resources */,
@@ -844,6 +921,7 @@
 				E2364AFC21421EB8008B6FDB /* LaunchScreen.storyboard in Resources */,
 				B75E7A562144654D006111B3 /* AccountItemView.xib in Resources */,
 				E258E5B1214616FD006075B8 /* WDAXAccount.storyboard in Resources */,
+				E2AE4F19214A659A003D9C8C /* OerderConfirmView.xib in Resources */,
 				B7B914382146C16F00FE9AD8 /* MineUserInfoView.xib in Resources */,
 				E2AD1A1B214909EB00232AAE /* OrderBtnView.xib in Resources */,
 				B7B914412146CC3900FE9AD8 /* AccountUSDTTransform.storyboard in Resources */,
@@ -854,6 +932,7 @@
 				B7B914222146AB7000FE9AD8 /* AccountFlowDetail.storyboard in Resources */,
 				B7D1111221481AED000B9728 /* ExtractUSDT.storyboard in Resources */,
 				E2AD1A25214910F200232AAE /* ExchangeTipsView.xib in Resources */,
+				E2AE4EF7214A3362003D9C8C /* Exchange.xcassets in Resources */,
 				B7B9142D2146AC0300FE9AD8 /* AccountFlowDetailCell.xib in Resources */,
 				B75E7A5121445E7E006111B3 /* DIGICCYMarketView.xib in Resources */,
 				E2364AF921421EB8008B6FDB /* Assets.xcassets in Resources */,
@@ -932,19 +1011,23 @@
 				B75E7A4021443CBE006111B3 /* HomeModuleApi.swift in Sources */,
 				B7B914252146AB7000FE9AD8 /* AccountFlowDetailRouter.swift in Sources */,
 				E2AD1A0F2148FF5600232AAE /* KLineTimeSegment.swift in Sources */,
+				E2AE4F26214A7347003D9C8C /* OrderListModuleApi.swift in Sources */,
 				E2AD1A012148E81400232AAE /* AppDelegateExtension.swift in Sources */,
 				B7D1111621481AED000B9728 /* ExtractUSDTModuleApi.swift in Sources */,
 				B7EB47E321454BFB00DB86C4 /* CToCPresenter.swift in Sources */,
 				B7EB47C421454B9E00DB86C4 /* MineDisplayData.swift in Sources */,
 				B7B914232146AB7000FE9AD8 /* AccountFlowDetailDisplayData.swift in Sources */,
+				E2AE4F27214A7347003D9C8C /* OrderListInteractor.swift in Sources */,
 				B7850EA121456A3C00D668C4 /* UIView+Extension.swift in Sources */,
 				B7EB47C621454B9E00DB86C4 /* MineRouter.swift in Sources */,
 				B7EB47E221454BFB00DB86C4 /* CToCDisplayData.swift in Sources */,
+				E2AE4F10214A4E41003D9C8C /* OrderPresenter.swift in Sources */,
 				E2AD19FA2148B72C00232AAE /* ExchangeRouter.swift in Sources */,
 				B7EB47E621454BFB00DB86C4 /* CToCInteractor.swift in Sources */,
 				B7EB47AE21453C9500DB86C4 /* LSTabBarViewController.swift in Sources */,
 				E2AD1A042148E9C500232AAE /* ExchangeHeaderView.swift in Sources */,
 				B7EB47EA21454DA700DB86C4 /* LSNaviViewController.swift in Sources */,
+				E2AE4F0F214A4E41003D9C8C /* OrderDisplayData.swift in Sources */,
 				B75E7A5421446541006111B3 /* AccountItemView.swift in Sources */,
 				E2AD19FD2148B72C00232AAE /* ExchangeView.swift in Sources */,
 				B75E7A4F21445E6A006111B3 /* DIGICCYMarketView.swift in Sources */,
@@ -962,32 +1045,39 @@
 				B7EB47C921454B9E00DB86C4 /* MineView.swift in Sources */,
 				B7EB47E721454BFB00DB86C4 /* CToCView.swift in Sources */,
 				B7EB47E421454BFB00DB86C4 /* CToCRouter.swift in Sources */,
+				E2AE4F28214A7347003D9C8C /* OrderListView.swift in Sources */,
 				B7B914282146AB7000FE9AD8 /* AccountFlowDetailView.swift in Sources */,
 				E258E5C221464AB2006075B8 /* AccountMenuItemView.swift in Sources */,
 				B7B914362146C16100FE9AD8 /* MineUserInfoView.swift in Sources */,
 				E2AD1A142149080500232AAE /* DGTypeSelectView.swift in Sources */,
 				B7EB47E521454BFB00DB86C4 /* CToCModuleApi.swift in Sources */,
 				E258E5B2214616FD006075B8 /* WDAXAccountDisplayData.swift in Sources */,
+				E2AE4F11214A4E41003D9C8C /* OrderRouter.swift in Sources */,
 				B7EB47ED214550E700DB86C4 /* LSBaseViewController.swift in Sources */,
 				B7EB47B021454A5C00DB86C4 /* AppModules.swift in Sources */,
 				E258E5DC214666D3006075B8 /* ExchangeAccountInteractor.swift in Sources */,
 				B7D1111721481AED000B9728 /* ExtractUSDTInteractor.swift in Sources */,
 				E258E5B7214616FD006075B8 /* WDAXAccountView.swift in Sources */,
 				B7B914262146AB7000FE9AD8 /* AccountFlowDetailModuleApi.swift in Sources */,
+				E2AE4F14214A4E41003D9C8C /* OrderView.swift in Sources */,
 				E258E5B3214616FD006075B8 /* WDAXAccountPresenter.swift in Sources */,
 				E258E5D8214666D3006075B8 /* ExchangeAccountDisplayData.swift in Sources */,
 				B7B914442146CC3900FE9AD8 /* AccountUSDTTransformRouter.swift in Sources */,
 				B75E7A5C21446D77006111B3 /* VolumeRankCell.swift in Sources */,
+				E2AE4F12214A4E41003D9C8C /* OrderModuleApi.swift in Sources */,
 				B75E7A3F21443CBE006111B3 /* HomeRouter.swift in Sources */,
 				B7B914272146AB7000FE9AD8 /* AccountFlowDetailInteractor.swift in Sources */,
+				E2AE4F17214A6592003D9C8C /* OerderConfirmView.swift in Sources */,
 				B7850EA6214573F100D668C4 /* UIColor+Extension.swift in Sources */,
 				B7EB479F214504BA00DB86C4 /* HomeSectionTitleHeader.swift in Sources */,
 				E258E5D9214666D3006075B8 /* ExchangeAccountPresenter.swift in Sources */,
+				E2AE4F25214A7347003D9C8C /* OrderListRouter.swift in Sources */,
 				E2AD19F82148B72C00232AAE /* ExchangeDisplayData.swift in Sources */,
 				E2AD19FC2148B72C00232AAE /* ExchangeInteractor.swift in Sources */,
 				B7D1111821481AED000B9728 /* ExtractUSDTView.swift in Sources */,
 				B7B914472146CC3900FE9AD8 /* AccountUSDTTransformView.swift in Sources */,
 				B7EB47C821454B9E00DB86C4 /* MineInteractor.swift in Sources */,
+				E2AE4F13214A4E41003D9C8C /* OrderInteractor.swift in Sources */,
 				B75E7A3E21443CBE006111B3 /* HomePresenter.swift in Sources */,
 				B7D1111421481AED000B9728 /* ExtractUSDTPresenter.swift in Sources */,
 				E2AD1A23214910E900232AAE /* ExchangeTipsView.swift in Sources */,
@@ -1004,6 +1094,8 @@
 				B7D1111521481AED000B9728 /* ExtractUSDTRouter.swift in Sources */,
 				B7850EA42145729D00D668C4 /* UIStyle.swift in Sources */,
 				E258E5E121468260006075B8 /* ExchangeAccountInfoView.swift in Sources */,
+				E2AE4F23214A7347003D9C8C /* OrderListDisplayData.swift in Sources */,
+				E2AE4F24214A7347003D9C8C /* OrderListPresenter.swift in Sources */,
 				B7B914422146CC3900FE9AD8 /* AccountUSDTTransformDisplayData.swift in Sources */,
 				E2AD1A0A2148F81100232AAE /* MarkInfoHeader.swift in Sources */,
 			);

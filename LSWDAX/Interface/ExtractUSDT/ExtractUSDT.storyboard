@@ -12,7 +12,7 @@
         <!--USDT提取-->
         <scene sceneID="htw-l1-ahc">
             <objects>
-                <viewController storyboardIdentifier="ExtractUSDTView" title="USDT提取" id="xqD-av-Raz" customClass="ExtractUSDTView" customModule="LSWDAX" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ExtractUSDTView" title="USDT提取" hidesBottomBarWhenPushed="YES" id="xqD-av-Raz" customClass="ExtractUSDTView" customModule="LSWDAX" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EcR-ye-kTk"/>
                         <viewControllerLayoutGuide type="bottom" id="vb6-4r-Epx"/>

@@ -31,7 +31,8 @@ class LSTabBarViewController: UITabBarController {
             .exchangeAccount,
             .accountFlowDetail,
             .accountUSDTTransform,
-            .extractUSDT
+            .extractUSDT,
+            .order
         ]
         
         viewControllers = modules.map({ mod -> UIViewController in
@@ -60,6 +61,8 @@ class LSTabBarViewController: UITabBarController {
                 nav.tabBarItem.title = "USDT划转"
             case .extractUSDT:
                 nav.tabBarItem.title = "USDT提取"
+            case .order:
+                nav.tabBarItem.title = "下单"
             }
             return nav
         })

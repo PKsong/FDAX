@@ -13,7 +13,7 @@
         <!--划转-->
         <scene sceneID="htw-l1-ahc">
             <objects>
-                <viewController storyboardIdentifier="AccountUSDTTransformView" title="划转" id="xqD-av-Raz" customClass="AccountUSDTTransformView" customModule="LSWDAX" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AccountUSDTTransformView" title="划转" hidesBottomBarWhenPushed="YES" id="xqD-av-Raz" customClass="AccountUSDTTransformView" customModule="LSWDAX" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EcR-ye-kTk"/>
                         <viewControllerLayoutGuide type="bottom" id="vb6-4r-Epx"/>
