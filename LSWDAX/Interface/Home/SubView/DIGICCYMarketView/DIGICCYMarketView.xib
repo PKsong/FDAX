@@ -61,9 +61,12 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
+                <outlet property="cnyValueLabel" destination="pPa-RO-yhM" id="Oiu-TJ-fGx"/>
                 <outlet property="line" destination="oJk-ar-MGL" id="TVF-yR-jLw"/>
+                <outlet property="quotNameLabel" destination="KBg-Ju-HZS" id="AwW-eq-D9U"/>
+                <outlet property="staticCoinsValueLabel" destination="lT8-Cf-gOT" id="Ggp-Fv-A3a"/>
             </connections>
-            <point key="canvasLocation" x="-521" y="-566"/>
+            <point key="canvasLocation" x="-713" y="-571"/>
         </view>
     </objects>
 </document>

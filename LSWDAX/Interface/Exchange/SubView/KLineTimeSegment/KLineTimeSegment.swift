@@ -18,7 +18,7 @@ class KLineTimeSegment: UIView, NibLoadableView {
         if let btn = contentView.arrangedSubviews.first as? UIButton {
             self.timeBtnAction(btn)
         }
-        self.set(cornerRadius: nil, borderColor: UIStyle.detailColor, borderWidth: 1 / UIScreen.main.scale)
+        self.set(cornerRadius: nil, borderColor: BACKGROUND_GLOBAL, borderWidth: 1 / UIScreen.main.scale)
     }
     
     @IBAction func timeBtnAction(_ sender: UIButton) {

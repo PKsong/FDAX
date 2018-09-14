@@ -22,7 +22,7 @@ extension MineView: MineViewApi {
         self.navigationController?.isNavigationBarHidden = true
         tableView.registerCell(UITableViewCell.self)
         tableView.separatorInset = UIEdgeInsets.init(top: 0, left: -10, bottom: 0, right: 0)
-        tableView.separatorColor = UIStyle.backGroundColor
+        tableView.separatorColor = BACKGROUND_GLOBAL
     }
     
     func update(settingCell:[MineHomeModel]) {
@@ -64,7 +64,7 @@ extension MineView: UITableViewDelegate, UITableViewDataSource {
             return view
         default:
             return UIView().then({ (view) in
-                view.backgroundColor = UIStyle.backGroundColor
+                view.backgroundColor = BACKGROUND_GLOBAL
             })
         }
         

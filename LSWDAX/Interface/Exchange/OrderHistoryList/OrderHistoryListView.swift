@@ -39,7 +39,7 @@ extension OrderHistoryListView: OrderHistoryListViewApi {
         }
         tableView.registerNib(OrderHistoryListCell.self)
         tableView.separatorInset = UIEdgeInsets.init(top: 0, left: -10, bottom: 0, right: 0)
-        tableView.separatorColor = UIStyle.backGroundColor
+        tableView.separatorColor = BACKGROUND_GLOBAL
         let haeder = UIView().then { [weak self] (view) in
             view.frame = CGRect.init(x: 0, y: 0, width: UIScreen.screenWidth(), height: 80)
             view.addSubview((self?.haeder)!)

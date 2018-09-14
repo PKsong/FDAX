@@ -182,6 +182,21 @@
 		E2AE4F26214A7347003D9C8C /* OrderListModuleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE4F1F214A7347003D9C8C /* OrderListModuleApi.swift */; };
 		E2AE4F27214A7347003D9C8C /* OrderListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE4F20214A7347003D9C8C /* OrderListInteractor.swift */; };
 		E2AE4F28214A7347003D9C8C /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AE4F21214A7347003D9C8C /* OrderListView.swift */; };
+		E2C6E57D214B412E0064750A /* RealNameAuthentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C6E576214B412E0064750A /* RealNameAuthentication.storyboard */; };
+		E2C6E57E214B412E0064750A /* RealNameAuthenticationDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6E577214B412E0064750A /* RealNameAuthenticationDisplayData.swift */; };
+		E2C6E57F214B412E0064750A /* RealNameAuthenticationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6E578214B412E0064750A /* RealNameAuthenticationPresenter.swift */; };
+		E2C6E580214B412E0064750A /* RealNameAuthenticationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6E579214B412E0064750A /* RealNameAuthenticationRouter.swift */; };
+		E2C6E581214B412E0064750A /* RealNameAuthenticationModuleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6E57A214B412E0064750A /* RealNameAuthenticationModuleApi.swift */; };
+		E2C6E582214B412E0064750A /* RealNameAuthenticationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6E57B214B412E0064750A /* RealNameAuthenticationInteractor.swift */; };
+		E2C6E583214B412E0064750A /* RealNameAuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6E57C214B412E0064750A /* RealNameAuthenticationView.swift */; };
+		E2C6E58C214B41460064750A /* RealNameAuthenticationDetaill.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C6E585214B41460064750A /* RealNameAuthenticationDetaill.storyboard */; };
+		E2C6E58D214B41460064750A /* RealNameAuthenticationDetaillDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6E586214B41460064750A /* RealNameAuthenticationDetaillDisplayData.swift */; };
+		E2C6E58E214B41460064750A /* RealNameAuthenticationDetaillPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6E587214B41460064750A /* RealNameAuthenticationDetaillPresenter.swift */; };
+		E2C6E58F214B41460064750A /* RealNameAuthenticationDetaillRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6E588214B41460064750A /* RealNameAuthenticationDetaillRouter.swift */; };
+		E2C6E590214B41460064750A /* RealNameAuthenticationDetaillModuleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6E589214B41460064750A /* RealNameAuthenticationDetaillModuleApi.swift */; };
+		E2C6E591214B41460064750A /* RealNameAuthenticationDetaillInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6E58A214B41460064750A /* RealNameAuthenticationDetaillInteractor.swift */; };
+		E2C6E592214B41460064750A /* RealNameAuthenticationDetaillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6E58B214B41460064750A /* RealNameAuthenticationDetaillView.swift */; };
+		E2C6E598214B93A60064750A /* BBColorDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6E597214B93A60064750A /* BBColorDefine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -363,6 +378,21 @@
 		E2AE4F1F214A7347003D9C8C /* OrderListModuleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListModuleApi.swift; sourceTree = "<group>"; };
 		E2AE4F20214A7347003D9C8C /* OrderListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListInteractor.swift; sourceTree = "<group>"; };
 		E2AE4F21214A7347003D9C8C /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		E2C6E576214B412E0064750A /* RealNameAuthentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RealNameAuthentication.storyboard; sourceTree = "<group>"; };
+		E2C6E577214B412E0064750A /* RealNameAuthenticationDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealNameAuthenticationDisplayData.swift; sourceTree = "<group>"; };
+		E2C6E578214B412E0064750A /* RealNameAuthenticationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealNameAuthenticationPresenter.swift; sourceTree = "<group>"; };
+		E2C6E579214B412E0064750A /* RealNameAuthenticationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealNameAuthenticationRouter.swift; sourceTree = "<group>"; };
+		E2C6E57A214B412E0064750A /* RealNameAuthenticationModuleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealNameAuthenticationModuleApi.swift; sourceTree = "<group>"; };
+		E2C6E57B214B412E0064750A /* RealNameAuthenticationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealNameAuthenticationInteractor.swift; sourceTree = "<group>"; };
+		E2C6E57C214B412E0064750A /* RealNameAuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealNameAuthenticationView.swift; sourceTree = "<group>"; };
+		E2C6E585214B41460064750A /* RealNameAuthenticationDetaill.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RealNameAuthenticationDetaill.storyboard; sourceTree = "<group>"; };
+		E2C6E586214B41460064750A /* RealNameAuthenticationDetaillDisplayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealNameAuthenticationDetaillDisplayData.swift; sourceTree = "<group>"; };
+		E2C6E587214B41460064750A /* RealNameAuthenticationDetaillPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealNameAuthenticationDetaillPresenter.swift; sourceTree = "<group>"; };
+		E2C6E588214B41460064750A /* RealNameAuthenticationDetaillRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealNameAuthenticationDetaillRouter.swift; sourceTree = "<group>"; };
+		E2C6E589214B41460064750A /* RealNameAuthenticationDetaillModuleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealNameAuthenticationDetaillModuleApi.swift; sourceTree = "<group>"; };
+		E2C6E58A214B41460064750A /* RealNameAuthenticationDetaillInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealNameAuthenticationDetaillInteractor.swift; sourceTree = "<group>"; };
+		E2C6E58B214B41460064750A /* RealNameAuthenticationDetaillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealNameAuthenticationDetaillView.swift; sourceTree = "<group>"; };
+		E2C6E597214B93A60064750A /* BBColorDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBColorDefine.swift; sourceTree = "<group>"; };
 		F0E455C6D1EF417C943F5599 /* Pods-LSWDAX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSWDAX.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSWDAX/Pods-LSWDAX.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -739,6 +769,7 @@
 		E2364AF021421EB7008B6FDB /* LSWDAX */ = {
 			isa = PBXGroup;
 			children = (
+				E2C6E596214B93830064750A /* Utility */,
 				E258E597214607CB006075B8 /* General */,
 				B7850EA2214571AB00D668C4 /* UIStyle */,
 				B7850E9F214569EF00D668C4 /* Extension */,
@@ -917,6 +948,8 @@
 		E2AD19EF2148B70000232AAE /* Exchange */ = {
 			isa = PBXGroup;
 			children = (
+				E2C6E584214B41360064750A /* RealNameAuthenticationDetaill */,
+				E2C6E575214B410B0064750A /* RealNameAuthentication */,
 				B7046343214AB29000AA37C9 /* OrderHistoryDetail */,
 				B704632A214AADB900AA37C9 /* OrderHistoryList */,
 				B704631B214AA66600AA37C9 /* OrderDetail */,
@@ -1051,6 +1084,42 @@
 			path = OrderList;
 			sourceTree = "<group>";
 		};
+		E2C6E575214B410B0064750A /* RealNameAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				E2C6E576214B412E0064750A /* RealNameAuthentication.storyboard */,
+				E2C6E577214B412E0064750A /* RealNameAuthenticationDisplayData.swift */,
+				E2C6E578214B412E0064750A /* RealNameAuthenticationPresenter.swift */,
+				E2C6E579214B412E0064750A /* RealNameAuthenticationRouter.swift */,
+				E2C6E57A214B412E0064750A /* RealNameAuthenticationModuleApi.swift */,
+				E2C6E57B214B412E0064750A /* RealNameAuthenticationInteractor.swift */,
+				E2C6E57C214B412E0064750A /* RealNameAuthenticationView.swift */,
+			);
+			path = RealNameAuthentication;
+			sourceTree = "<group>";
+		};
+		E2C6E584214B41360064750A /* RealNameAuthenticationDetaill */ = {
+			isa = PBXGroup;
+			children = (
+				E2C6E585214B41460064750A /* RealNameAuthenticationDetaill.storyboard */,
+				E2C6E586214B41460064750A /* RealNameAuthenticationDetaillDisplayData.swift */,
+				E2C6E587214B41460064750A /* RealNameAuthenticationDetaillPresenter.swift */,
+				E2C6E588214B41460064750A /* RealNameAuthenticationDetaillRouter.swift */,
+				E2C6E589214B41460064750A /* RealNameAuthenticationDetaillModuleApi.swift */,
+				E2C6E58A214B41460064750A /* RealNameAuthenticationDetaillInteractor.swift */,
+				E2C6E58B214B41460064750A /* RealNameAuthenticationDetaillView.swift */,
+			);
+			path = RealNameAuthenticationDetaill;
+			sourceTree = "<group>";
+		};
+		E2C6E596214B93830064750A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E2C6E597214B93A60064750A /* BBColorDefine.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1113,6 +1182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C6E57D214B412E0064750A /* RealNameAuthentication.storyboard in Resources */,
 				E258E5CE21466261006075B8 /* WDAXAccountInfoView.xib in Resources */,
 				B704630D214A9AC300AA37C9 /* OrderListHeadView.xib in Resources */,
 				E2AE4F22214A7347003D9C8C /* OrderList.storyboard in Resources */,
@@ -1131,6 +1201,7 @@
 				E2AD1A062148E9D200232AAE /* ExchangeHeaderView.xib in Resources */,
 				E2AD1A0C2148F81C00232AAE /* MarkInfoHeader.xib in Resources */,
 				E2364AFC21421EB8008B6FDB /* LaunchScreen.storyboard in Resources */,
+				E2C6E58C214B41460064750A /* RealNameAuthenticationDetaill.storyboard in Resources */,
 				B7046323214AA67B00AA37C9 /* OrderDetail.storyboard in Resources */,
 				B7046342214AAEE900AA37C9 /* OrderHistoryListCell.xib in Resources */,
 				B75E7A562144654D006111B3 /* AccountItemView.xib in Resources */,
@@ -1186,22 +1257,38 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LSWDAX/Pods-LSWDAX-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
 				"${BUILT_PRODUCTS_DIR}/Viperit/Viperit.framework",
 				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Viperit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
@@ -1225,10 +1312,12 @@
 				E258E5C821464EEA006075B8 /* AccountFlowListCell.swift in Sources */,
 				B75E7A4121443CBE006111B3 /* HomeInteractor.swift in Sources */,
 				E2364AF421421EB7008B6FDB /* ViewController.swift in Sources */,
+				E2C6E598214B93A60064750A /* BBColorDefine.swift in Sources */,
 				B7046336214AADCF00AA37C9 /* OrderHistoryListModuleApi.swift in Sources */,
 				B7046333214AADCF00AA37C9 /* OrderHistoryListDisplayData.swift in Sources */,
 				E2364AF221421EB7008B6FDB /* AppDelegate.swift in Sources */,
 				E258E5B4214616FD006075B8 /* WDAXAccountRouter.swift in Sources */,
+				E2C6E58E214B41460064750A /* RealNameAuthenticationDetaillPresenter.swift in Sources */,
 				B75E7A4021443CBE006111B3 /* HomeModuleApi.swift in Sources */,
 				B7B914252146AB7000FE9AD8 /* AccountFlowDetailRouter.swift in Sources */,
 				E2AD1A0F2148FF5600232AAE /* KLineTimeSegment.swift in Sources */,
@@ -1285,6 +1374,7 @@
 				E2AD1A142149080500232AAE /* DGTypeSelectView.swift in Sources */,
 				B704635D214ACF5B00AA37C9 /* LoginPresenter.swift in Sources */,
 				B7EB47E521454BFB00DB86C4 /* CToCModuleApi.swift in Sources */,
+				E2C6E582214B412E0064750A /* RealNameAuthenticationInteractor.swift in Sources */,
 				E258E5B2214616FD006075B8 /* WDAXAccountDisplayData.swift in Sources */,
 				E2AE4F11214A4E41003D9C8C /* OrderRouter.swift in Sources */,
 				B704634C214AB2B400AA37C9 /* OrderHistoryDetailDisplayData.swift in Sources */,
@@ -1293,7 +1383,9 @@
 				E258E5DC214666D3006075B8 /* ExchangeAccountInteractor.swift in Sources */,
 				B7D1111721481AED000B9728 /* ExtractUSDTInteractor.swift in Sources */,
 				B7046341214AAEE900AA37C9 /* OrderHistoryListCell.swift in Sources */,
+				E2C6E57F214B412E0064750A /* RealNameAuthenticationPresenter.swift in Sources */,
 				E258E5B7214616FD006075B8 /* WDAXAccountView.swift in Sources */,
+				E2C6E581214B412E0064750A /* RealNameAuthenticationModuleApi.swift in Sources */,
 				B7B914262146AB7000FE9AD8 /* AccountFlowDetailModuleApi.swift in Sources */,
 				E2AE4F14214A4E41003D9C8C /* OrderView.swift in Sources */,
 				E258E5B3214616FD006075B8 /* WDAXAccountPresenter.swift in Sources */,
@@ -1311,6 +1403,7 @@
 				E258E5D9214666D3006075B8 /* ExchangeAccountPresenter.swift in Sources */,
 				E2AE4F25214A7347003D9C8C /* OrderListRouter.swift in Sources */,
 				B7046329214AA67B00AA37C9 /* OrderDetailView.swift in Sources */,
+				E2C6E591214B41460064750A /* RealNameAuthenticationDetaillInteractor.swift in Sources */,
 				E2AD19F82148B72C00232AAE /* ExchangeDisplayData.swift in Sources */,
 				E2AD19FC2148B72C00232AAE /* ExchangeInteractor.swift in Sources */,
 				B7D1111821481AED000B9728 /* ExtractUSDTView.swift in Sources */,
@@ -1318,16 +1411,21 @@
 				B704635C214ACF5B00AA37C9 /* LoginDisplayData.swift in Sources */,
 				B7B914472146CC3900FE9AD8 /* AccountUSDTTransformView.swift in Sources */,
 				B7EB47C821454B9E00DB86C4 /* MineInteractor.swift in Sources */,
+				E2C6E580214B412E0064750A /* RealNameAuthenticationRouter.swift in Sources */,
 				B704634E214AB2B400AA37C9 /* OrderHistoryDetailRouter.swift in Sources */,
 				E2AE4F13214A4E41003D9C8C /* OrderInteractor.swift in Sources */,
 				B75E7A3E21443CBE006111B3 /* HomePresenter.swift in Sources */,
 				B7D1111421481AED000B9728 /* ExtractUSDTPresenter.swift in Sources */,
 				B704635E214ACF5B00AA37C9 /* LoginRouter.swift in Sources */,
 				B7046326214AA67B00AA37C9 /* OrderDetailRouter.swift in Sources */,
+				E2C6E590214B41460064750A /* RealNameAuthenticationDetaillModuleApi.swift in Sources */,
+				E2C6E592214B41460064750A /* RealNameAuthenticationDetaillView.swift in Sources */,
 				E2AD1A23214910E900232AAE /* ExchangeTipsView.swift in Sources */,
+				E2C6E58D214B41460064750A /* RealNameAuthenticationDetaillDisplayData.swift in Sources */,
 				B704634D214AB2B400AA37C9 /* OrderHistoryDetailPresenter.swift in Sources */,
 				B7B914452146CC3900FE9AD8 /* AccountUSDTTransformModuleApi.swift in Sources */,
 				B7EB47A421452C3100DB86C4 /* ScrollStackView.swift in Sources */,
+				E2C6E58F214B41460064750A /* RealNameAuthenticationDetaillRouter.swift in Sources */,
 				B704635F214ACF5B00AA37C9 /* LoginModuleApi.swift in Sources */,
 				E2AD19FB2148B72C00232AAE /* ExchangeModuleApi.swift in Sources */,
 				E2AD19F92148B72C00232AAE /* ExchangePresenter.swift in Sources */,
@@ -1338,6 +1436,7 @@
 				B7EB47A9214531F600DB86C4 /* MarketListVew.swift in Sources */,
 				E2AD1A1E21490FB000232AAE /* KLineView.swift in Sources */,
 				B7B914462146CC3900FE9AD8 /* AccountUSDTTransformInteractor.swift in Sources */,
+				E2C6E57E214B412E0064750A /* RealNameAuthenticationDisplayData.swift in Sources */,
 				B75E7A3D21443CBE006111B3 /* HomeDisplayData.swift in Sources */,
 				B7D1111521481AED000B9728 /* ExtractUSDTRouter.swift in Sources */,
 				B7850EA42145729D00D668C4 /* UIStyle.swift in Sources */,
@@ -1347,6 +1446,7 @@
 				B7046361214ACF5B00AA37C9 /* LoginView.swift in Sources */,
 				B7046351214AB2B400AA37C9 /* OrderHistoryDetailView.swift in Sources */,
 				B7046327214AA67B00AA37C9 /* OrderDetailModuleApi.swift in Sources */,
+				E2C6E583214B412E0064750A /* RealNameAuthenticationView.swift in Sources */,
 				E2AE4F24214A7347003D9C8C /* OrderListPresenter.swift in Sources */,
 				B7B914422146CC3900FE9AD8 /* AccountUSDTTransformDisplayData.swift in Sources */,
 				E2AD1A0A2148F81100232AAE /* MarkInfoHeader.swift in Sources */,
@@ -1488,6 +1588,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MXEGJUJ58N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LSWDAX/BBBase/Umeng",
+				);
 				INFOPLIST_FILE = LSWDAX/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1508,6 +1612,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MXEGJUJ58N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LSWDAX/BBBase/Umeng",
+				);
 				INFOPLIST_FILE = LSWDAX/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

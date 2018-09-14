@@ -31,9 +31,13 @@ class MarketListVew: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func update(data: [DIGICCYMarketModel]) {
+    func update(data: [DIGICCYMarketModel]?) {
+        guard let data = data else {
+            return
+        }
         let views = data.map { (model) -> DIGICCYMarketView in
             let view = DIGICCYMarketView.loadNib()
+            view.update(data: model)
             view.line.isHidden = false
             return view
         }

@@ -15,10 +15,13 @@ protocol HomeRouterApi: RouterProtocol {
 //MARK: - HomeView API
 protocol HomeViewApi: UserInterfaceProtocol {
     func prepare()
+    func update(data: HomeDataModel?)
 }
 
 //MARK: - HomePresenter API
 protocol HomePresenterApi: PresenterProtocol {
+    func wdaxAccountAction()
+    func exchangeAccountAction()
 }
 
 //MARK: - HomeInteractor API

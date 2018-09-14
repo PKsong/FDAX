@@ -12,12 +12,18 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    weak var tabbarVC:LSTabBarViewController?
+    static  let shareAppDelegate:AppDelegate = UIApplication.shared.delegate as! AppDelegate
+    class func getAppDelegate() ->AppDelegate{
+        return shareAppDelegate
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = LSTabBarViewController()
+        let tabarVC = LSTabBarViewController()
+        window?.rootViewController = tabarVC
         window?.makeKeyAndVisible()
         
         self.startIQKeyboardManager()

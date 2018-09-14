@@ -22,7 +22,7 @@ class MineUserInfoView: UIView, NibLoadableView {
     var phoneBtnActionBlock:(() -> ())?
     
     override func awakeFromNib() {
-        self.avatarView.set(cornerRadius: avatarView.bounds.width / 2, borderColor: UIStyle.detailColor, borderWidth: 1)
+        self.avatarView.set(cornerRadius: avatarView.bounds.width / 2, borderColor: BACKGROUND_GLOBAL, borderWidth: 1)
         self.avatarView.backgroundColor = UIColor.lightGray
     }
 }

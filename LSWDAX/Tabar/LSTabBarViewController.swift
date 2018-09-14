@@ -38,7 +38,9 @@ class LSTabBarViewController: UITabBarController {
             .orderHistoryList,
             .orderHistoryDetail,
             .register,
-            .login
+            .login,
+            .realNameAuthentication,
+            .realNameAuthenticationDetaill
         ]
         
         viewControllers = modules.map({ mod -> UIViewController in
@@ -51,12 +53,20 @@ class LSTabBarViewController: UITabBarController {
             switch mod {
             case .home:
                 nav.tabBarItem.title = "首页"
+                nav.tabBarItem.image = UIImage.init(named: "Tabbar_item_首页")
+                nav.tabBarItem.selectedImage = UIImage.init(named: "Tabbar_item_首页_selected")
             case .exchange:
                 nav.tabBarItem.title = "交易"
+                nav.tabBarItem.image = UIImage.init(named: "Placeanorder")
+                nav.tabBarItem.selectedImage = UIImage.init(named: "Placeanorder-option")
             case .cToC:
                 nav.tabBarItem.title = "C2C"
+                nav.tabBarItem.image = UIImage.init(named: "Tabbar_item_发现")
+                nav.tabBarItem.selectedImage = UIImage.init(named: "Tabbar_item_发现_selected")
             case .mine:
                 nav.tabBarItem.title = "我的"
+                nav.tabBarItem.image = UIImage.init(named: "Tabbar_item_我的")
+                nav.tabBarItem.selectedImage = UIImage.init(named: "Tabbar_item_我的_selected")
             case .wDAXAccount:
                 nav.tabBarItem.title = "WDAX账户"
             case .exchangeAccount:
@@ -81,6 +91,10 @@ class LSTabBarViewController: UITabBarController {
                 nav.tabBarItem.title = "注册"
             case .login:
                 nav.tabBarItem.title = "登录"
+            case .realNameAuthentication:
+                nav.tabBarItem.title = "实名认证"
+            case .realNameAuthenticationDetaill:
+                nav.tabBarItem.title = "已实名认证"
             }
             return nav
         })

@@ -13,7 +13,18 @@ import Viperit
 final class HomeView: UserInterface {
     // MARK: Subview
     @IBOutlet weak var tableView: UITableView!
+    let marketListVew = MarketListVew()
+    let accountItemView = AccountItemView.loadNib()
     
+    // MARK: Event Handle
+    func addAction() {
+        accountItemView.wdaxAccountActionBlock = { [weak self] in
+            self?.presenter.wdaxAccountAction()
+        }
+        accountItemView.exchangeAccountActionBlock = { [weak self] in
+            self?.presenter.exchangeAccountAction()
+        }
+    }
 }
 
 //MARK: - HomeView API
@@ -24,11 +35,15 @@ extension HomeView: HomeViewApi {
         }
         tableView.registerNib(VolumeRankCell.self)
         tableView.separatorInset = UIEdgeInsets.init(top: 0, left: -10, bottom: 0, right: 0)
-        tableView.separatorColor = UIStyle.backGroundColor
+        tableView.separatorColor = BACKGROUND_GLOBAL
+        self.addAction()
     }
     
-    func update(data: HomeDisplayData) {
-        
+    func update(data: HomeDataModel?) {
+        displayData.homeData = data
+        marketListVew.update(data: data?.digiccyList)
+        accountItemView.update(datas: data?.accountList)
+        tableView.reloadData()
     }
 }
 
@@ -39,11 +54,15 @@ extension HomeView: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return section == 2 ? 10 : 0
+        return section == 2 ? displayData.homeData?.exchangeVolumeList?.count ?? 0 : 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(VolumeRankCell.self, forIndexPath: indexPath)
+        guard  let dataList = displayData.homeData?.exchangeVolumeList else {
+            return cell
+        }
+        cell.update(data: dataList[indexPath.row])
         return cell
     }
     
@@ -54,11 +73,9 @@ extension HomeView: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         switch section {
         case 0:
-            let listView = MarketListVew()
-            listView.update(data: [DIGICCYMarketModel(), DIGICCYMarketModel(), DIGICCYMarketModel(), DIGICCYMarketModel()])
-            return listView
+            return marketListVew
         case 1:
-            return AccountItemView.loadNib()
+            return accountItemView
         case 2:
             return HomeSectionTitleHeader.loadNib()
         default:

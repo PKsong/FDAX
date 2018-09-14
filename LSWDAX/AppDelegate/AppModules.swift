@@ -26,5 +26,7 @@ enum AppModules: String, ViperitModule {
     case orderHistoryDetail
     case register
     case login
+    case realNameAuthentication
+    case realNameAuthenticationDetaill
 }
 

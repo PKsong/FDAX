@@ -11,6 +11,8 @@ def common_pods
     pod 'MJRefresh'
     pod 'Then'
     pod 'XCGLogger', '~> 6.0.4'
+    pod 'RxSwift',    '~> 4.0'
+    pod 'RxCocoa',    '~> 4.0'
 end
 
 target 'LSWDAX' do

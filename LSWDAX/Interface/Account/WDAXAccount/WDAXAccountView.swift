@@ -23,7 +23,7 @@ extension WDAXAccountView: WDAXAccountViewApi {
         }
         tableView.registerNib(AccountFlowListCell.self)
         tableView.separatorInset = UIEdgeInsets.init(top: 0, left: -10, bottom: 0, right: 0)
-        tableView.separatorColor = UIStyle.backGroundColor
+        tableView.separatorColor = BACKGROUND_GLOBAL
     }
 }
 

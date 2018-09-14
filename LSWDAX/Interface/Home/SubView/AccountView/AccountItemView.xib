@@ -61,15 +61,20 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <gestureRecognizers/>
                                         </stackView>
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <gestureRecognizers/>
                                     <constraints>
                                         <constraint firstAttribute="trailingMargin" secondItem="kU7-Cd-aq2" secondAttribute="trailing" id="4ww-ML-0U2"/>
                                         <constraint firstItem="kU7-Cd-aq2" firstAttribute="top" secondItem="DwV-Jw-zfp" secondAttribute="topMargin" id="57T-te-CuA"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="kU7-Cd-aq2" secondAttribute="bottom" id="ejl-UA-kx2"/>
                                         <constraint firstItem="kU7-Cd-aq2" firstAttribute="leading" secondItem="DwV-Jw-zfp" secondAttribute="leadingMargin" id="yph-IG-Rxd"/>
                                     </constraints>
+                                    <connections>
+                                        <outletCollection property="gestureRecognizers" destination="Xwr-Pi-FEu" appends="YES" id="YlK-Im-hBe"/>
+                                    </connections>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eX8-dZ-SPf">
                                     <rect key="frame" x="185.5" y="0.0" width="185.5" height="111"/>
@@ -79,7 +84,7 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Pb-K0-IMz">
                                                     <rect key="frame" x="0.0" y="0.0" width="169.5" height="31.5"/>
-                                                    <string key="text">WDAX账户 &gt;
+                                                    <string key="text">交易账户 &gt;
 </string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -118,6 +123,9 @@
                                         <constraint firstItem="pKs-Tt-yrx" firstAttribute="top" secondItem="eX8-dZ-SPf" secondAttribute="topMargin" id="ZyB-vW-eyl"/>
                                         <constraint firstItem="pKs-Tt-yrx" firstAttribute="leading" secondItem="eX8-dZ-SPf" secondAttribute="leadingMargin" id="pid-gp-OfM"/>
                                     </constraints>
+                                    <connections>
+                                        <outletCollection property="gestureRecognizers" destination="965-zN-XSM" appends="YES" id="JSU-dI-Vfm"/>
+                                    </connections>
                                 </view>
                             </subviews>
                         </stackView>
@@ -141,11 +149,25 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
+                <outlet property="cnyLabel" destination="hSf-UB-yZR" id="2lq-0r-P2v"/>
                 <outlet property="contentView" destination="JUF-N9-Yrw" id="wD8-0V-dVv"/>
+                <outlet property="exchangeCnyLabel" destination="Dvw-tc-VYC" id="ScQ-do-5eP"/>
+                <outlet property="exchangeStaticCoinsLabel" destination="w9T-9O-hkW" id="33Q-hX-rhc"/>
                 <outlet property="exchangeView" destination="eX8-dZ-SPf" id="766-tZ-9m0"/>
+                <outlet property="staticCoinsLabel" destination="nHk-Tg-kNB" id="Luk-aw-pSq"/>
                 <outlet property="wdaxView" destination="DwV-Jw-zfp" id="uFk-HZ-Kgo"/>
             </connections>
             <point key="canvasLocation" x="-79.5" y="-29.5"/>
         </view>
+        <tapGestureRecognizer id="Xwr-Pi-FEu">
+            <connections>
+                <action selector="wdaxAction:" destination="iN0-l3-epB" id="M5z-Wc-rKj"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="965-zN-XSM">
+            <connections>
+                <action selector="exchangeAcion:" destination="iN0-l3-epB" id="Pbv-OW-qNT"/>
+            </connections>
+        </tapGestureRecognizer>
     </objects>
 </document>
